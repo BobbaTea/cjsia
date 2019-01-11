@@ -2,8 +2,8 @@
 <head>
 <title>Update</title>
 </head>
-<link href="../static/css/bootstrap.css" rel="stylesheet">
-<script src="../static/js/bootstrap.js"></script>
+<link href="/static/css/bootstrap.css" rel="stylesheet">
+<script src="/static/js/bootstrap.js"></script>
 <div class="container">
 <br>
 
@@ -72,3 +72,4 @@ if(array_key_exists('refresh',$_POST)){
 <?php
 // }
 ?>
+
