@@ -8,7 +8,7 @@
 <br>
 
 <?php
-if(isset($_COOKIE['admin'])) {
+// if(isset($_COOKIE['admin'])) {
 
 if($_GET["s"]==1){
 echo "<div class='alert alert-success alert-dismissible fade show' role='alert' >
@@ -70,5 +70,5 @@ if(array_key_exists('refresh',$_POST)){
 
 
 <?php
-}
+// }
 ?>
