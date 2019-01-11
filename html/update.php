@@ -2,8 +2,8 @@
 <head>
 <title>Update</title>
 </head>
-<link href="/static/resources/css/bootstrap.css" rel="stylesheet">
-<script src="/static/resources/js/bootstrap.js"></script>
+<link href="../static/resources/css/bootstrap.css" rel="stylesheet">
+<script src="../static/resources/js/bootstrap.js"></script>
 <div class="container">
 <br>
 
