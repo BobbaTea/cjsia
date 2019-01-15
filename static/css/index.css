@@ -1,0 +1,19 @@
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+    font-size: 12vw;
+}
+
+#sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 2vh;
+    font-size: 4vw;
+}
