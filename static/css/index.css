@@ -6,9 +6,19 @@
     text-align: center;
     min-height: 85vh;
     font-size: 14vw;
+    font-family: "vegur";
+    font-weight: bold;
+
+}
+
+.navbar {
+    font-family: "vegur";
+    font-weight: bold;
 }
 
 #sub {
+    font-family: "vegur";
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,8 +28,25 @@
     font-size: 5vw;
 }
 
-body {
-    overflow: hidden;
+
+
+
+@font-face {
+    font-family: vegur;
+    src: url(../fonts/vr.otf);
+    font-weight: normal;
 
 }
 
+@font-face {
+    font-family: vegur;
+    src: url(../fonts/vb.otf);
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: vegur;
+    src: url(../fonts/vl.otf);
+    font-weight: lighter;
+}

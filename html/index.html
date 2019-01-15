@@ -2,45 +2,67 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>CJSIA</title>
-
-    <link href="../static/css/index.css" rel="stylesheet">
-    <link href="../static/css/materialize.css" rel="stylesheet">
-    <link href="../static/css/bootstrap.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>CJSIA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../static/css/index.css" rel="stylesheet">
+  <!-- <link href="../static/css/materialize.css" rel="stylesheet"> -->
+  <link href="../static/css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-        
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home </a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  about
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/mission">mission</a>
+                  <a class="dropdown-item" href="/board">board</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    programs
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/seminars">seminars</a>
+                    <a class="dropdown-item" href="/psd">presentational skills development</a>
+                    <a class="dropdown-item" href="/launch">launch program</a>
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-    <div class = "container">
-    <h1  class="display-1" style="text-align:center;" id="title"> CJSIA
-            <small id = "sub"class="text-muted">Central Jersey Student Innovators' Association</small> </h1>
-
-    </div>
-        <canvas id = "bg"style="display:none" style = "z-index: -1;"></canvas>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+  <div class="container">
+    <h1 class="display-1" style="text-align:center;" id="title"> CJSIA
+      <small id="sub" class="text-muted">Central Jersey Student Innovators' Association</small>
+    </h1>
+  </div>
 
 
-    <script src="index.js"></script>
+  <canvas id="bg" style="display:none" style="z-index: -1;"></canvas>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
 
 </body>
 

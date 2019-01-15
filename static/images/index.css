@@ -1,0 +1,27 @@
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+    font-size: 14vw;
+}
+
+#sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 6vh;
+    font-size: 5vw;
+}
+
+
+
+body {
+    overflow: hidden;
+
+}
+
