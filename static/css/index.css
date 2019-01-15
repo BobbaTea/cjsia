@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 95vh;
-    font-size: 12vw;
+    min-height: 85vh;
+    font-size: 14vw;
 }
 
 #sub {
@@ -14,6 +14,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 2vh;
-    font-size: 4vw;
+    min-height: 6vh;
+    font-size: 5vw;
 }
+
+body {
+    overflow: hidden;
+
+}
+

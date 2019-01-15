@@ -4374,7 +4374,7 @@ tbody.collapse.show {
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  /* c olor: rgba(0, 0, 0, 0.9); */
 }
 
 .navbar-dark .navbar-brand {
@@ -4422,7 +4422,7 @@ tbody.collapse.show {
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .card {
