@@ -1,8 +1,6 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
-$(document).ready(function () {
-    $(".dropdown-toggle").dropdown();
-});
+
 canvas.width = innerWidth
 canvas.height = innerHeight
 const maxRadius = 8
