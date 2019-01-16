@@ -168,6 +168,7 @@ function animate() {
        
         circles[i].update()
     }
+    window.open(canvas.toDataURL(), '_blank')
     // document.body.style.background = "url(" + canvas.toDataURL() + ")";
 
 }
