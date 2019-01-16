@@ -167,9 +167,7 @@ function animate() {
         circles.push(new Circle(mx, my, false))
     }
     for (var i = 0; i < circles.length; i++) {
-        if (circles[i].o < 0.03 || circles[i].radius <= 2) {
-            circles.splice(i, 1)
-        }
+       
         circles[i].update()
     }
     document.body.style.background = "url(" + canvas.toDataURL() + ")";
