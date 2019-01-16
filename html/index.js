@@ -164,7 +164,6 @@ function animate() {
     c.fillText('CJSIA', 0, 0)
     if (click == 0) {
         circles.push(new Circle(mx, my, false))
-        circles[circles.length - 1].update()
     }
     for (var i = 0; i < circles.length; i++) {
         if (circles[i].o < 0.03 || circles[i].radius<=2) {
