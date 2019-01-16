@@ -1,6 +1,6 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
-$(document).ready(function() {
+$(document).ready(function () {
     $(".dropdown-toggle").dropdown();
 });
 canvas.width = innerWidth
@@ -46,11 +46,12 @@ function clicku() {
     click = 1
 }
 
+document.addEventListener('resize', rsz)
 
-addEventListener('resize', () => {
+function rsz() {
     canvas.width = innerWidth
     canvas.height = innerHeight
-})
+}
 
 function map(val, in_min, in_max, out_min, out_max) {
     return (val - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
@@ -91,9 +92,9 @@ class Circle {
 
         this.c = c
         this.radius = randomIntFromRange(minRadius, maxRadius)
-        this.yvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4)+0.08;
-        this.xvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4)+0.08;
-        this.o = (Math.pow(this.radius / maxRadius, 2) *0.9) + 0.08
+        this.yvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4) + 0.08;
+        this.xvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4) + 0.08;
+        this.o = (Math.pow(this.radius / maxRadius, 2) * 0.9) + 0.08
         this.draw()
     }
 
@@ -166,7 +167,7 @@ function animate() {
         circles.push(new Circle(mx, my, false))
     }
     for (var i = 0; i < circles.length; i++) {
-        if (circles[i].o < 0.03 || circles[i].radius<=2) {
+        if (circles[i].o < 0.03 || circles[i].radius <= 2) {
             circles.splice(i, 1)
         }
         circles[i].update()
