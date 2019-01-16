@@ -10,7 +10,9 @@
     font-weight: bold;
 
 }
-
+canvas{
+    position:fixed;
+ }
 .navbar {
     font-family: "vegur";
     font-weight: bold;
