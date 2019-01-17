@@ -165,7 +165,9 @@ function animate() {
         circles.push(new Circle(mx, my, false))
     }
     for (var i = 0; i < circles.length; i++) {
-       
+       if(i==0){
+           console.log(circles[i].x)
+       }
         circles[i].update()
     }
     // window.open(canvas.toDataURL(), '_blank')
