@@ -1,15 +1,4 @@
-#title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 80vh;
-    font-size: 14vw;
-    font-family: "vegur";
-    font-weight: bold;
 
-}
 
 body {
     font-family: "vegur";
@@ -24,10 +13,15 @@ body {
     font-weight: bold;
 
 }
+#title {
+    font-family: "vegur";
 
+    font-weight: bold;
+
+}
 .navbar {
     font-family: "vegur";
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 
