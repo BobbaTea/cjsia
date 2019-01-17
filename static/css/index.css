@@ -11,17 +11,12 @@
 
 }
 
-#canvas {
+canvas {
     position: absolute;
     top: 0;
     left: 0;
     display: inline;
     z-index: -1;
-}
-
-.unique {
-    position: relative;
-    overflow: hidden;
 }
 
 .navbar {
@@ -40,11 +35,6 @@
     min-height: 6vh;
     font-size: 5vw;
 }
-
-:not(body){
-    background-color: rgba(0,0,0,0);
-}
-
 
 @font-face {
     font-family: "vegur";
