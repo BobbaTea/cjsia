@@ -170,7 +170,7 @@ function animate() {
     }
     // window.open(canvas.toDataURL(), '_blank')
     // document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
-    document.body.style.background = "url(" + canvas.toDataURL() + ")";
+    // document.body.style.background = "url(" + canvas.toDataURL() + ")";
 
 }
 
