@@ -21,15 +21,8 @@ canvas {
 :not(canvas){
     z-index: 3;
 }
-#canvas-div
-{ position:fixed; top:0px; left:0px; z-index:1; }
-/* canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline;
-    z-index: -2;
-} */
+
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 .navbar {
     font-family: "vegur";

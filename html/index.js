@@ -141,8 +141,7 @@ class Circle {
         c.lineWidth = 0.7;
         var a = canvas.width - this.x;
         var b = this.x;
-        c.fillStyle = "rgb(" + map(a, 0, canvas.width, 0, 220) + ",0," + map(b, 0, canvas.width, 0, 255) +
-            ")"
+        c.fillStyle = "rgb(" + map(a, 0, canvas.width, 0, 220) + ",0," + map(b, 0, canvas.width, 0, 255) + ")"
         c.ellipse(this.x, this.y, this.radius, this.radius, Math.PI / 4, 0, 2 * Math.PI)
         c.globalAlpha = this.o;
         c.fill()
