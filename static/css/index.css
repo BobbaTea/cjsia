@@ -41,7 +41,9 @@
     font-size: 5vw;
 }
 
-
+:not(body){
+    background-color: rgba(0,0,0,0);
+}
 
 
 @font-face {
