@@ -47,21 +47,21 @@
 
 
 @font-face {
-    font-family: vegur;
+    font-family: "vegur";
     src: url(../fonts/vr.otf);
     font-weight: normal;
 
 }
 
 @font-face {
-    font-family: vegur;
+    font-family: "vegur";
     src: url(../fonts/vb.otf);
     font-weight: bold;
 
 }
 
 @font-face {
-    font-family: vegur;
+    font-family: "vegur";
     src: url(../fonts/vl.otf);
     font-weight: lighter;
 }
