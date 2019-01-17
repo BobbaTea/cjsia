@@ -169,8 +169,8 @@ function animate() {
         circles[i].update()
     }
     // window.open(canvas.toDataURL(), '_blank')
-    document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
-    // document.body.style.background = "url(" + canvas.toDataURL() + ")";
+    // document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
+    document.body.style.background = "url(" + canvas.toDataURL() + ")";
 
 }
 
