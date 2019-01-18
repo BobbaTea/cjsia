@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const nunjucksRender = require('gulp-nunjucks');
+const nunjucksRender = require('gulp-nunjucks-render');
 
 gulp.task('nunjucks', function() {
     // Gets .html and .nunjucks files in pages
