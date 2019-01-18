@@ -1,8 +1,6 @@
-
- 
 .container {
     font-family: "vegur";
-} 
+}
 
 .card-header {
     font-weight: bold;
@@ -13,14 +11,38 @@
     font-weight: bold;
 
 }
+
 #title {
     font-family: "vegur";
 
     font-weight: bold;
 
 }
+.dropdown-item{
+    font-family: "opensans";
+    font-weight: normal;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
+.navbar {
+    font-family: "opensans";
+    font-weight: bold;
+}
 
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: bold;
+
+}
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+
+}
 
 @font-face {
     font-family: "vegur";
