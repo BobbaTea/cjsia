@@ -1,8 +1,8 @@
 
-
-body {
+ 
+.container {
     font-family: "vegur";
-}
+} 
 
 .card-header {
     font-weight: bold;
@@ -19,10 +19,7 @@ body {
     font-weight: bold;
 
 }
-.navbar {
-    font-family: "vegur";
-     font-weight: bold; 
-}
+
 
 
 @font-face {
