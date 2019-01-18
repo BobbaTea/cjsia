@@ -1,0 +1,10 @@
+{% set cssPath = "../static/css/index.css" %}
+{% set jsPath = "../static/js/index.js" %}
+
+{% extends "base.nunjucks" %}
+
+{% block content %}
+
+hey
+
+{% endblock %}
