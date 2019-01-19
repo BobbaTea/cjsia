@@ -7,9 +7,8 @@ if(array_key_exists('payload',$_POST)){
       echo "SUCCESS!";
    }
    echo "FAILED!";
-
+}
 ?>
-
 <head>
    <title>Update</title>
 </head>
@@ -91,8 +90,6 @@ if(array_key_exists('off',$_POST)){
    header('Location: /update.php');
 }
 
-
-}
 ?>
    <br>
    <form method="post">
