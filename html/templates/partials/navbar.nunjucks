@@ -40,7 +40,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto list-inlin">
-            <li  class=""><a href="https://facebook.com"><i class="fa fa-facebook-square fab"></i></a> <a href="https://twitter.com"><i class="fa fa-twitter-square fab"></i></a></li>        
+            <li  class="mr-2"><a href="https://facebook.com"><i class="fa fa-facebook-square fab"></i></a> <a href="https://twitter.com"><i class="fa fa-twitter-square fab"></i></a></li>        
 
     </div>
     </div>
