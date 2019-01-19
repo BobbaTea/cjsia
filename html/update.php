@@ -37,6 +37,7 @@ shell_exec('git diff master origin/master --color | /tmp/ansi2html.sh > gitDiff.
 function update()
 {
    // `git clean -f -d`;
+   `git fetch origin master`;
    `git pull`;
    `gulp nunjucks`;
    header('Location: /update.php?s=1');
@@ -67,15 +68,18 @@ if(array_key_exists('fupdate',$_POST)){
 if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
-if(array_key_exists('save',$_POST)){
-   if(!empty($_POST['auto'])){
-      $_ENV['autopull'] = "true";
-   }else{
-      $_ENV['autopull'] = "";
-   }
+if(array_key_exists('auto',$_POST)){
+$_ENV['autopull'] = "true";
+   header('Location: /update.php');
+}
+if(array_key_exists('off',$_POST)){
+   $_ENV['autopull'] = "false";
+
+   header('Location: /update.php');
 }
 if ( $_POST['payload'] ) {
-  if(!empty($_ENV['autopull'])){
+   if( $_ENV['autopull'] === "true"){
+   `git fetch origin master`;
    `git pull`;
    `gulp nunjucks`;
    }
@@ -88,19 +92,10 @@ if ( $_POST['payload'] ) {
       <input type="submit" class="btn btn-success" name="update" id="update" value="Update" />
       <input type="submit" class="btn btn-warning" name="fupdate" id="fupdate" value="Force Update" />
       <input type="submit" class="btn btn-warning" name="clean" id="clean" value="Clean" />
-      <?php
-echo $_ENV['autopull'];
-         ?>
-      <div class="btn-group btn-group-toggle" data-toggle="buttons">
-         <label class="btn btn-secondary">
-            <input type="radio" name="auto" id="auto" autocomplete="off"> Auto
-         </label>
-         <label class="btn btn-secondary">
-            <input type="radio" name="off" id="off" autocomplete="off" checked> Off
-         </label>
-      </div>
-
-      <input type="submit" class="btn btn-primary" name="save" id="save" value="Save" />
+   <br>
+   State: <?php echo $_ENV['autopull'] ?>
+      <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
+      <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
    </form>
 </div>
