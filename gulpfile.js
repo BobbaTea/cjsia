@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const nunjucksRender = require('gulp-nunjucks-render');
-const del = require('del');
 
 
 gulp.task('nunjucks', function() {
