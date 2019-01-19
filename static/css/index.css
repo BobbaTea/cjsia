@@ -26,9 +26,9 @@ canvas {
 
 html,
 body {
-    /* margin: 0;
+    margin: 0;
     height: 100%;
-    overflow: hidden; */
+    overflow: hidden;
     -webkit-user-select: none;
     /* Safari, Chrome */
     -khtml-user-select: none;
