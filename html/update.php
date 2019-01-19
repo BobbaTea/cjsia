@@ -78,13 +78,14 @@ if(array_key_exists('off',$_POST)){
    $_SESSION['autopull'] = "false";
    header('Location: /update.php');
 }
-if ( $_POST['payload'] ) {
+if(array_key_exists('payload',$_POST)){
    if( $_SESSION['autopull'] === "true"){
-   `git fetch origin master`;
-   `git pull`;
-   `gulp nunjucks`;
+      `git fetch origin master`;
+      `git pull`;
+      `gulp nunjucks`;
    }
- }
+   header('Location: /update.php');
+}
 ?>
 
    <br>
@@ -97,8 +98,8 @@ if ( $_POST['payload'] ) {
    <br>
 
    State: <?php echo $_SESSION['autopull'] ?>
-      <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
-      <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
+   <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
+   <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
    </form>
 </div>
