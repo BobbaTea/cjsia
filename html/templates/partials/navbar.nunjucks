@@ -40,10 +40,6 @@
         </li>
       </ul>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">aaa</a></li>
-        <li><a href="#">nnn</a></li>
-      </ul>
 
     </div>
   </nav>
