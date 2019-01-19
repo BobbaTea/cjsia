@@ -1,4 +1,4 @@
-{% set cssPath = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" %}
+{% set cssPath = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.css" %}
 {% set jsPath = "" %}
 
 {% extends "base.nunjucks" %}
