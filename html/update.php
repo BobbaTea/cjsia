@@ -90,7 +90,6 @@ if ( $_POST['payload'] ) {
       <input type="submit" class="btn btn-warning" name="clean" id="clean" value="Clean" />
       <?php
 echo $_ENV['autopull'];
-      if(empty($_ENV['autopull'])){
          ?>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
          <label class="btn btn-secondary">
@@ -100,20 +99,7 @@ echo $_ENV['autopull'];
             <input type="radio" name="off" id="off" autocomplete="off" checked> Off
          </label>
       </div>
-      <?php
-      }else{
-      ?>
-      <div class="btn-group btn-group-toggle" data-toggle="buttons">
-         <label class="btn btn-secondary">
-            <input type="radio" name="auto" id="auto" autocomplete="off" checked> Auto
-         </label>
-         <label class="btn btn-secondary">
-            <input type="radio" name="off" id="off" autocomplete="off"> Off
-         </label>
-      </div>
-      <?php
-      }
-      ?>
+
       <input type="submit" class="btn btn-primary" name="save" id="save" value="Save" />
 
    </form>
