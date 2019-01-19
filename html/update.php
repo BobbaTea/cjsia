@@ -8,7 +8,6 @@
    <br>
 
    <?php
-   session_start();
 
 // if(isset($_COOKIE['admin'])) {
 
@@ -70,11 +69,11 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   apc_store("autopull", "true");
+   apc_store("autopull", "true", 600);
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   apc_store("autopull", "false");
+   apc_store("autopull", "false", 600);
    header('Location: /update.php');
 }
 ?>
