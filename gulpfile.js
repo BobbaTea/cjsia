@@ -22,4 +22,4 @@ gulp.task('clean', function () {
   ]);
 });
 
-gulp.task('default', ['clean']);
+gulp.task('default', ['clean -f']);
