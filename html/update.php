@@ -87,7 +87,6 @@ if(array_key_exists('payload',$_POST)){
    header('Location: /update.php');
 }
 ?>
-
    <br>
    <form method="post">
       <input type="submit" class="btn btn-primary" name="refresh" id="refresh" value="Refresh" />
