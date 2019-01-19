@@ -15,11 +15,11 @@ gulp.task('nunjucks', function() {
   });
 
 
-gulp.task('clean:mobile', function () {
+gulp.task('clean', function () {
   return del([
     'html/**/*',
     '!html/gitDiff.html'
   ]);
 });
 
-gulp.task('default', gulp.series('clean:mobile'));
+gulp.task('default', ['clean']);
