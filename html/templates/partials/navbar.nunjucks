@@ -1,4 +1,4 @@
-
+<div class = "container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
         <div class="container-fluid">
           <a draggable="false" class="navbar-brand" href="#"></a>
@@ -43,3 +43,4 @@
           </div>
         </div>
       </nav>
+      </div>
