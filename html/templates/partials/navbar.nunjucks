@@ -40,9 +40,10 @@
           </li>
 
         </ul>
+        <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button>
+<!--Twitter-->
+<button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button>
       </div>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
     </div>
   </nav>
 </div>
