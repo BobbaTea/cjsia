@@ -39,7 +39,6 @@ function update()
    `git pull`;
    `gulp nunjucks`;
    header('Location: /update.php?s=1');
-
 }
 function fupdate()
 {
@@ -47,10 +46,7 @@ function fupdate()
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
    `gulp nunjucks`;
-
    header('Location: /update.php?s=1');
-
-
 }
 if(array_key_exists('update',$_POST)){
    update();
