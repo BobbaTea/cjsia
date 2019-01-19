@@ -68,7 +68,7 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('save',$_POST)){
-   if($_POST['auto']){
+   if(!empty($_POST['auto']){
       $_ENV['autopull'] = "true";
    }else{
       $_ENV['autopull'] = "";
