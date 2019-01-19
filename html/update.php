@@ -7,6 +7,8 @@
    <br>
 
    <?php
+   session_start();
+
 // if(isset($_COOKIE['admin'])) {
 
 if($_GET["s"]==1){
@@ -69,15 +71,15 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   $_SERVER['autopull'] = "true";
+   $_SESSION['autopull'] = "true";
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   $_SERVER['autopull'] = "false";
+   $_SESSION['autopull'] = "false";
    header('Location: /update.php');
 }
 if ( $_POST['payload'] ) {
-   if( $_SERVER['autopull'] === "true"){
+   if( $_SESSION['autopull'] === "true"){
    `git fetch origin master`;
    `git pull`;
    `gulp nunjucks`;
@@ -94,7 +96,7 @@ if ( $_POST['payload'] ) {
    <br>
    <br>
 
-   State: <?php echo $_SERVER['autopull'] ?>
+   State: <?php echo $_SESSION['autopull'] ?>
       <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
       <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
