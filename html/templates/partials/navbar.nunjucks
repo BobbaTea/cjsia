@@ -7,7 +7,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav nav-tabs">
+        <ul class="nav navbar-nav nav-tabs">
           <li class="nav-item active">
             <a draggable="false" class="nav-link" href="/">home <span class="sr-only">(current)</span></a>
           </li>
@@ -40,7 +40,7 @@
           </li>
 
         </ul>
-          <ul class = "navbar-nav navbar-right">
+          <ul class = "nav navbar-nav navbar-right">
             <li><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           </ul>
