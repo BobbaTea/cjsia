@@ -40,12 +40,10 @@
           </li>
 
         </ul>
-        <div class="my-2 my-lg-0">
-          <ul class = "navbar-nav">
+          <ul class = "navbar-nav navbar-right">
             <li><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           </ul>
-        </div>
       </div>
     </div>
   </nav>
