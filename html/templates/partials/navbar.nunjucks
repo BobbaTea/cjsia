@@ -38,12 +38,13 @@
           <li class="nav-item">
             <a draggable="false" class="nav-link" href="/contact">contact</a>
           </li>
-
         </ul>
+
           <ul class = "nav navbar-nav navbar-right">
             <li><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           </ul>
+
       </div>
   </nav>
 </div>
