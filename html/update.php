@@ -15,7 +15,7 @@
    <?php
 $myfile = fopen("boolean", "r") or die("Unable to open file!");
 $c = fread($myfile,filesize("boolean"));
-echo $c;
+
 fclose($myfile);
 if($_POST['payload'] ){
    if($c === "true"){
