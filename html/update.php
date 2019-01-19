@@ -34,8 +34,6 @@ shell_exec('git diff master origin/master --color | /tmp/ansi2html.sh > gitDiff.
 
    <iframe src="gitDiff.html" width="80%" height="50%"></iframe>
 
-
-
    <?php
 function update()
 {
