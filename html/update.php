@@ -69,11 +69,17 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   apc_store("autopull", "true", 0);
+   $myfile = fopen("boolean", "w") or die("Unable to open file!");
+   $txt = "true";
+   fwrite($myfile, $txt);   
+   fclose($myfile);
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   apc_store("autopull", "false", 0);
+   $myfile = fopen("boolean", "w") or die("Unable to open file!");
+   $txt = "false";
+   fwrite($myfile, $txt);   
+   fclose($myfile);
    header('Location: /update.php');
 }
 ?>
@@ -86,7 +92,9 @@ if(array_key_exists('off',$_POST)){
    <br>
    <br>
 
-   State: <?php echo apc_fetch("autopull") ?>
+   State: <?php $myfile = fopen("boolean", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("boolean"));
+fclose($myfile); ?>
    <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
    <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
