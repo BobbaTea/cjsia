@@ -5,7 +5,7 @@
 
 {% block content %}
 
-{% include "partials/navbar.nunjucks" %}
+{# {% include "partials/navbar.nunjucks" %} #}
 
 <div class="container">
     <h1 class="display-5 text-center">Knock Knock!</h1>
