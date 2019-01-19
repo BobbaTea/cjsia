@@ -85,7 +85,7 @@
     </div>
     <br>
     <hr />
-    <h1 class="display-3 text-center">Chapter Representatives</h1>
+    <h1 class="display-4 text-center">Chapter Representatives</h1>
 </div>
 {% endblock %}
 
