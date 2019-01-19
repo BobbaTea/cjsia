@@ -7,6 +7,15 @@
 
 {% include "partials/navbar.nunjucks" %}
 
-
+<div class="container">
+    <h1 class="display-5 text-center">Knock Knock!</h1>
+    <h1 class="display-5 text-center"> ... </h1>
+    <h1 class="display-5 text-center">Who's there?</h1>
+    <h1 class="display-5 text-center"> ... </h1>
+    <h1 class="display-5 text-center">Who?</h1>
+    <h1 class="display-5 text-center"> ... </h1>
+    <br>
+    <h1 class="display-5 text-center">404 </h1>
+</div>
 
 {% endblock %}
