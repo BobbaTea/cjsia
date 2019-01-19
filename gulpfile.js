@@ -1,5 +1,7 @@
 const gulp = require('gulp');
 const nunjucksRender = require('gulp-nunjucks-render');
+const del = require('del');
+
 
 gulp.task('nunjucks', function() {
     // Gets .html and .nunjucks files in pages
@@ -11,3 +13,13 @@ gulp.task('nunjucks', function() {
     // output files in app folder
     .pipe(gulp.dest('html'))
   });
+
+
+gulp.task('clean:mobile', function () {
+  return del([
+    'html/**/*',
+    '!html/gitDiff.html'
+  ]);
+});
+
+gulp.task('default', gulp.series('clean:mobile'));
