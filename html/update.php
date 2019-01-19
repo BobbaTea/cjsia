@@ -69,15 +69,15 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   $_ENV['autopull'] = "true";
+   $_SERVER['autopull'] = "true";
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   $_ENV['autopull'] = "false";
+   $_SERVER['autopull'] = "false";
    header('Location: /update.php');
 }
 if ( $_POST['payload'] ) {
-   if( $_ENV['autopull'] === "true"){
+   if( $_SERVER['autopull'] === "true"){
    `git fetch origin master`;
    `git pull`;
    `gulp nunjucks`;
@@ -94,7 +94,7 @@ if ( $_POST['payload'] ) {
    <br>
    <br>
 
-   State: <?php echo $_ENV['autopull'] ?>
+   State: <?php echo $_SERVER['autopull'] ?>
       <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
       <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
