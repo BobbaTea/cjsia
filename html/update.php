@@ -69,12 +69,11 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-$_ENV['autopull'] = "true";
+   $_ENV['autopull'] = "true";
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
    $_ENV['autopull'] = "false";
-
    header('Location: /update.php');
 }
 if ( $_POST['payload'] ) {
@@ -93,6 +92,8 @@ if ( $_POST['payload'] ) {
       <input type="submit" class="btn btn-warning" name="fupdate" id="fupdate" value="Force Update" />
       <input type="submit" class="btn btn-warning" name="clean" id="clean" value="Clean" />
    <br>
+   <br>
+
    State: <?php echo $_ENV['autopull'] ?>
       <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
       <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
