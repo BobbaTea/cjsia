@@ -40,9 +40,12 @@
           </li>
 
         </ul>
-        <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button>
-<!--Twitter-->
-<button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button>
+        <div class="col-xs-8 pull-right text-right">
+          <ul>
+            <li><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
