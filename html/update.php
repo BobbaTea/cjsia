@@ -1,3 +1,13 @@
+<?php
+if(array_key_exists('payload',$_POST)){
+   if( $_SESSION['autopull'] === "true"){
+      `git fetch origin master`;
+      `git pull`;
+      `gulp nunjucks`;
+      echo "SUCCESS!";
+   }
+?>
+
 <head>
    <title>Update</title>
 </head>
@@ -78,13 +88,8 @@ if(array_key_exists('off',$_POST)){
    $_SESSION['autopull'] = "false";
    header('Location: /update.php');
 }
-if(array_key_exists('payload',$_POST)){
-   if( $_SESSION['autopull'] === "true"){
-      `git fetch origin master`;
-      `git pull`;
-      `gulp nunjucks`;
-   }
-   header('Location: /update.php');
+
+
 }
 ?>
    <br>
