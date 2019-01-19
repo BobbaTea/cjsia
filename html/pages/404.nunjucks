@@ -7,7 +7,7 @@
 
 {# {% include "partials/navbar.nunjucks" %} #}
 <div class="container">
-    <div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="shadow p-3 mb-5 bg-white rounded z-depth-3">
         <div class="card">
             <div class="card-body">
                 <h1 class="display-5 text-center">Knock Knock!</h1>
