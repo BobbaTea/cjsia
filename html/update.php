@@ -50,6 +50,7 @@ function fupdate()
 }
 function cleanG(){
     `git clean -f -d`;
+    `gulp nunjucks`;
     header('Location: /update.php');
 
 }
