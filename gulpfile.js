@@ -14,12 +14,3 @@ gulp.task('nunjucks', function() {
     .pipe(gulp.dest('html'))
   });
 
-
-gulp.task('clean', function () {
-  return del([
-    'html/**/*',
-    '!html/gitDiff.html'
-  ]);
-});
-
-gulp.task('default', ['clean -f']);
