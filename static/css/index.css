@@ -41,21 +41,6 @@ body {
     /* CSS3 */
 }
 
-.navbar {
-    font-family: "opensans";
-    font-weight: bold;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-item {
-
-    font-family: "opensans";
-    font-weight: normal;
-}
-
 #sub {
     font-family: "vegur";
 
@@ -67,6 +52,7 @@ body {
     min-height: 6vh;
     font-size: 5vw;
 }
+
 
 @font-face {
     font-family: "opensans";

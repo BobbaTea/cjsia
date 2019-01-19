@@ -1,3 +1,4 @@
+
 .container {
     font-family: "vegur";
 }
@@ -17,18 +18,6 @@
 
     font-weight: bold;
 
-}
-.dropdown-item{
-    font-family: "opensans";
-    font-weight: normal;
-}
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.navbar {
-    font-family: "opensans";
-    font-weight: bold;
 }
 
 @font-face {

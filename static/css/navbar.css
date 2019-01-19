@@ -1,0 +1,48 @@
+
+.navbar {
+    font-family: "opensans";
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+
+    font-family: "opensans";
+    font-weight: normal;
+}
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vr.otf);
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vb.otf);
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vl.otf);
+    font-weight: lighter;
+}

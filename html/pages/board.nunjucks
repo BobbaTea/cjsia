@@ -1,0 +1,72 @@
+{% set cssPath = "../static/css/board.css" %}
+{% set jsPath = "" %}
+
+{% extends "base.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/navbar.nunjucks" %}
+ <br>
+        <h1 id="title" class="display-3 text-center">Our Team(2k19)</h1>
+        <hr />
+        <h1 class="display-4 text-center">Board</h1>
+
+        <!-- <div class="card-group"> -->
+        <div class="card-deck">
+
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">President</div>
+                <img class="card-img-top" src="../static/images/akash.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Akash Bobba</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">Vice President</div>
+                <img class="card-img-top" src="../static/images/samvit.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Samvit Agarwal</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">Vice President</div>
+                <img class="card-img-top" src="../static/images/rishi.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Rishi Madala</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck mt-4">
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">Logistics</div>
+                <img class="card-img-top" src="../static/images/carol.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Carol Sun</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">Logistics</div>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Bharat Krishnan</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">Outreach</div>
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Gabrielle Bailey</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr />
+        <h1 class="display-3 text-center">Chapter Representatives</h1>
+
+{% endblock %}
