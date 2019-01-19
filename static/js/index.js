@@ -1,5 +1,3 @@
-
-
 // Hey ur pretty curious. This is a custom made canvas animation thing ...
 
 
@@ -146,7 +144,7 @@ class Circle {
         c.lineWidth = 0.7;
         var a = canvas.width - this.x;
         var b = this.x;
-        c.fillStyle = 'rgb('+ Math.floor((this.x/canvas.width)*255)  +  ',0,' + Math.floor(((canvas.width-this.x)/canvas.width)*255)+')'
+        c.fillStyle = 'rgb(' + Math.floor((this.x / canvas.width) * 255) + ',0,' + Math.floor(((canvas.width - this.x) / canvas.width) * 255) + ')'
         c.ellipse(this.x, this.y, this.radius, this.radius, Math.PI / 4, 0, 2 * Math.PI)
         c.globalAlpha = this.o;
         c.fill()
@@ -169,16 +167,16 @@ function animate() {
         circles.push(new Circle(mx, my, false))
     }
     for (var i = 0; i < circles.length; i++) {
-    //    if(i==0){
-    //        console.log(circles[i].x)
-    //    }
+        //    if(i==0){
+        //        console.log(circles[i].x)
+        //    }
         circles[i].update()
     }
     // window.open(canvas.toDataURL(), '_blank')
     // document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
-    // document.body.style.background = "url(" + canvas.toDataURL() + ")";
 
 }
+document.body.style.background = "linear-gradient(to bottom right, rgb(0,0,0), rgb(100,100,100))";
 
 init()
 animate()
