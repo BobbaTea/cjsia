@@ -1,14 +1,4 @@
-<?php
-if(array_key_exists('payload',$_POST)){
-   if( $_SESSION['autopull'] === "true"){
-      `git fetch origin master`;
-      `git pull`;
-      `gulp nunjucks`;
-      echo "SUCCESS!";
-   }
-   echo "FAILED!";
-}
-?>
+
 <head>
    <title>Update</title>
 </head>
