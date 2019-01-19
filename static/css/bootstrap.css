@@ -6651,8 +6651,8 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  /* background-color: #f8f9fa !important; */
-  background-color: rgba(87, 87, 87, 0.459);
+  background-color: #f8f9fa !important;
+  /* background-color: rgba(87, 87, 87, 0.459); */
 }
 
 a.bg-light:hover,
