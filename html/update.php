@@ -38,8 +38,6 @@ function update()
    `git clean -f -d`;
    `git pull`;
    `gulp nunjucks`;
-   `> gitDiff.html`;
-
    header('Location: /update.php?s=1');
 
 }
@@ -49,7 +47,6 @@ function fupdate()
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
    `gulp nunjucks`;
-   `> gitDiff.html`;
 
    header('Location: /update.php?s=1');
 
