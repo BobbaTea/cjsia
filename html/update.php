@@ -50,6 +50,7 @@ function fupdate()
 }
 function cleanG(){
     `git clean -f -d`;
+    header('Location: /update.php');
 
 }
 if(array_key_exists('update',$_POST)){
