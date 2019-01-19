@@ -89,7 +89,7 @@ if ( $_POST['payload'] ) {
       <input type="submit" class="btn btn-warning" name="fupdate" id="fupdate" value="Force Update" />
       <input type="submit" class="btn btn-warning" name="clean" id="clean" value="Clean" />
       <?php
-
+echo $_ENV['autopull'];
       if(empty($_ENV['autopull'])){
          ?>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
