@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="nav navbar-nav nav-tabs">
+      <ul class="nav navbar-nav nav-tabs navbar-center">
         <li class="nav-item active">
           <a draggable="false" class="nav-link" href="/">home <span class="sr-only">(current)</span></a>
         </li>
