@@ -41,7 +41,7 @@
 
         </ul>
         <div class="col-xs-8 pull-right text-right">
-          <ul>
+          <ul class = "navbar-nav">
             <li><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           </ul>
