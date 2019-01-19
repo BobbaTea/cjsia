@@ -69,11 +69,11 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   apc_store("autopull", "true", 600);
+   apc_store("autopull", "true", 0);
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   apc_store("autopull", "false", 600);
+   apc_store("autopull", "false", 0);
    header('Location: /update.php');
 }
 ?>
