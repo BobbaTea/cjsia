@@ -40,8 +40,8 @@
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto list-group-horizontal">
-            <li  class="list-group-item mr-3"><a href="https://facebook.com"><i class="fa fa-facebook-square fa"></i></a></li>
-            <li  class="list-group-item mr-3"><a href="https://twitter.com"><i class="fa fa-twitter-square fa"></i></a></li>
+            <li  class="list-group-item mr-3"><a href="https://facebook.com"><i class="fa fa-facebook-square fab"></i></a></li>
+            <li  class="list-group-item mr-3"><a href="https://twitter.com"><i class="fa fa-twitter-square fab"></i></a></li>
           </ul>
 
     </div>
