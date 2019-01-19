@@ -35,7 +35,7 @@ shell_exec('git diff master origin/master --color | /tmp/ansi2html.sh > gitDiff.
 <?php
 function update()
 {
-   `rm -r /var/www/cjsia/html/*`;
+   `git clean -f -d`;
    `git pull`;
    `gulp nunjucks`;
 
@@ -44,7 +44,7 @@ function update()
 }
 function fupdate()
 {
-   `rm -r /var/www/cjsia/html/*`;
+   `git clean -f -d`;
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
    `gulp nunjucks`;
