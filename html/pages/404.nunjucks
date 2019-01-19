@@ -1,4 +1,4 @@
-{% set cssPath = "../static/css/mission.css" %}
+{% set cssPath = "" %}
 {% set jsPath = "" %}
 
 {% extends "base.nunjucks" %}
