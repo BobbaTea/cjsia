@@ -6,7 +6,6 @@
 {% block content %}
 
 {# {% include "partials/navbar.nunjucks" %} #}
-<div class="shadow-lg p-4 mb-4 bg-light">Try programming examples</div>
 
 <div class="container">
     <div style="z-index: 999;" class="shadow">
