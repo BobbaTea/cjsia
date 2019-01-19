@@ -36,6 +36,7 @@ shell_exec('git diff master origin/master --color | /tmp/ansi2html.sh > gitDiff.
 function update()
 {
    `git pull`;
+   `gulp nunjucks`;
 
    header('Location: /update.php?s=1');
 
@@ -44,7 +45,7 @@ function fupdate()
 {
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
-
+   `gulp nunjucks`;
    header('Location: /update.php?s=1');
 
 
