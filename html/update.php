@@ -70,11 +70,11 @@ if(array_key_exists('refresh',$_POST)){
    header('Location: /update.php');
 }
 if(array_key_exists('auto',$_POST)){
-   $_SESSION['autopull'] = "true";
+   apc_store("autopull", "true");
    header('Location: /update.php');
 }
 if(array_key_exists('off',$_POST)){
-   $_SESSION['autopull'] = "false";
+   apc_store("autopull", "false");
    header('Location: /update.php');
 }
 ?>
@@ -87,7 +87,7 @@ if(array_key_exists('off',$_POST)){
    <br>
    <br>
 
-   State: <?php echo $_SESSION['autopull'] ?>
+   State: <?php echo apc_fetch("autopull") ?>
    <input type="submit" class="btn btn-primary" name="auto" id="auto" value="Auto" />
    <input type="submit" class="btn btn-primary" name="off" id="off" value="Off" />
 
