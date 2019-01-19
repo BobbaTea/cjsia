@@ -13,7 +13,9 @@
     font-family: "opensans";
     font-weight: normal;
 }
-
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
 @font-face {
     font-family: "opensans";
     src: url(../fonts/OpenSans-Regular.ttf);
