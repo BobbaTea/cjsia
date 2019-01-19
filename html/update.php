@@ -89,7 +89,6 @@ if(array_key_exists('off',$_POST)){
    $_SESSION['autopull'] = "false";
    header('Location: /update.php');
 }
-
 ?>
    <br>
    <form method="post">
