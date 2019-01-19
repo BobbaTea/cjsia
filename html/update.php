@@ -35,21 +35,28 @@ shell_exec('git diff master origin/master --color | /tmp/ansi2html.sh > gitDiff.
 <?php
 function update()
 {
-   `git clean -f -d`;
+   // `git clean -f -d`;
    `git pull`;
    `gulp nunjucks`;
    header('Location: /update.php?s=1');
 }
 function fupdate()
 {
-   `git clean -f -d`;
+   // `git clean -f -d`;
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
    `gulp nunjucks`;
    header('Location: /update.php?s=1');
 }
+function cleanG(){
+    `git clean -f -d`;
+
+}
 if(array_key_exists('update',$_POST)){
    update();
+}
+if(array_key_exists('clean',$_POST)){
+   cleanG();
 }
 if(array_key_exists('fupdate',$_POST)){
    fupdate();
@@ -64,6 +71,8 @@ if(array_key_exists('refresh',$_POST)){
    <input type="submit" class="btn btn-primary" name="refresh" id="refresh" value="Refresh"/>
    <input type="submit" class="btn btn-success" name="update" id="update" value="Update" />
    <input type="submit" class="btn btn-warning" name="fupdate" id="fupdate" value="Force Update" />
+   <input type="submit" class="btn btn-warning" name="clean" id="clean" value="Clean" />
+
 </form>
 </div>
 
