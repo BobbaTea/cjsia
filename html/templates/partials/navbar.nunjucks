@@ -39,7 +39,7 @@
           <a draggable="false" class="nav-link" href="/contact">contact</a>
         </li>
       </ul>
-      <ul class="nav navbar-nav ml-auto list-inlin">
+      <ul class="nav navbar-nav ml-auto">
             <li  class="mr-2 mt-2"><a href="https://facebook.com"><i class="fa fa-facebook-square fab"></i></a> <a href="https://twitter.com"><i class="fa fa-twitter-square fab"></i></a></li>        
 
     </div>
