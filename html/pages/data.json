@@ -1,0 +1,12 @@
+{
+    "alumni": [
+        {
+            name:"Alex Krauel"
+            path:"../static/images/alumni/alex.jpeg"
+        },
+        {
+            name:"Kevin Li"
+            path:"../static/images/alumni/kevin.jpeg"
+        }
+    ]
+}
