@@ -107,7 +107,7 @@
     <h1 class="display-4 text-center">Alumni</h1>
     <ul class="list-unstyled">
         <li class="media">
-            <img src="../static/images/alumni/alex.jpeg" class="mr-3" alt="...">
+            <img src="../static/images/alumni/.jpeg" class="mr-3" alt="...">
             <div class="media-body">
                 <h5 class="mt-0 mb-1">Alex Krauel</h5>
             </div>
