@@ -20,7 +20,7 @@ const data = require('gulp-data');
 //   });
 
   gulp.task('render', function() {
-    nunjucksRender.nunjucks.configure(['html/templates/']);
+    nunjucksRender.nunjucks.configure(['html/templates']);
     return gulp.src('html/pages/**/*.+(html|nunjucks)')
       // Adding data to nunjucks
       .pipe(data(function() {
