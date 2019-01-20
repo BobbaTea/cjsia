@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const nunjucksRender = require('gulp-nunjucks-render');
+const data = require('gulp-data'); 
 
 
 gulp.task('render', function() {
@@ -11,6 +12,9 @@ gulp.task('render', function() {
       }))
     // output files in app folder
     .pipe(gulp.dest('html'))
+    .pipe(data(function () {
+      return require('.html/pages/data.json')
+  }))
  
   });
 
