@@ -13,8 +13,8 @@
     <h1 class="display-4 text-center">Board</h1>
 
     <!-- <div class="card-group"> -->
-    <div class="card-deck">
 
+    <div class="card-deck">
         <div class="card mx-auto text-center mr-3" style="width: 18rem;">
             <div class="card-header">President</div>
             <img class="card-img-top" src="../static/images/akash.png" alt="Card image cap">
@@ -22,13 +22,15 @@
                 <h5 class="card-title">Akash Bobba</h5>
                 <p align="justify" class="card-text">Akash is a sophomore at West Windsor-Plainsboro High School South.
                     Aside from CJSIA, he is passionate about computer
-                    science, physics, and international policy. He participates in his school's MUN team (<a href="http://southmunc.org">South MUN</a>), in the South
+                    science, physics, and international policy. He participates in his school's Model United Nations
+                    team (<a href="http://southmunc.org">South MUN</a>), in the South
                     Debate
                     Team, and is the Secretary of the South Camerata Orchestra. He also pursues his interests in
                     Computer Science by
                     competing in the Silver Division of USACO, in various hackathons, and in information
                     security CTF tournaments.
-                    Akash is excited to lead CJSIA throughout the coming seasons, working alongside students and the dedicated
+                    Akash is excited to lead CJSIA throughout the coming seasons, working alongside students and the
+                    dedicated
                     board to spread
                     entrepreneurship skills and promote innovation.</p>
             </div>
@@ -46,7 +48,14 @@
             <img class="card-img-top" src="../static/images/rishi.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Rishi Madala</h5>
-                <p class="card-text"></p>
+                <p align="justify" class="card-text">Rishi is a sophomore at WWP High School South (HSS) and prides
+                    himself in being a
+                    well-rounded individual. Within his school, he is the captain of the high school basketball team, a
+                    part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also
+                    involved in his local community as he is a mentor in the Tutoring Desk and Study Buddy programs. He
+                    is very excited to serve as the Vice-President for CJSIA for 2019 and years to come and empower
+                    students on the basis of innovation and entrepreneurship to facilitate the development of
+                    real-world skills.</p>
             </div>
         </div>
     </div>
@@ -88,5 +97,3 @@
     <h1 class="display-4 text-center">Chapter Representatives</h1>
 </div>
 {% endblock %}
-
-
