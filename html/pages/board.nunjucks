@@ -16,7 +16,7 @@
 
     <div class="card-deck">
     
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">President</div>
             <img class="card-img-top" src="../static/images/akash.png" alt="Card image cap">
             <div class="card-body">
@@ -36,7 +36,7 @@
                     entrepreneurship skills and promote innovation.</p>
             </div>
         </div>
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/samvit.png" alt="Card image cap">
             <div class="card-body">
@@ -44,7 +44,7 @@
                 <p class="card-text"></p>
             </div>
         </div>
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/rishi.png" alt="Card image cap">
             <div class="card-body">
@@ -61,7 +61,7 @@
         </div>
     </div>
     <div class="card-deck mt-4">
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="../static/images/carol.png" alt="Card image cap">
             <div class="card-body">
@@ -76,7 +76,7 @@
                 </p>
             </div>
         </div>
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
@@ -84,7 +84,7 @@
                 <p class="card-text"></p>
             </div>
         </div>
-        <div class="card mx-3 text-center " style="width: 18rem;">
+        <div class="card  text-center " style="width: 18rem;">
             <div class="card-header">Outreach</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
