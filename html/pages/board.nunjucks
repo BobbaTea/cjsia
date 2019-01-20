@@ -15,28 +15,22 @@
     <!-- <div class="card-group"> -->
 
     <div class="card-deck">
-    
-        <div class="card  text-center " >
+
+        <div class="card  text-center ">
             <div class="card-header">President</div>
             <img class="card-img-top" src="../static/images/akash.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Akash Bobba</h5>
                 <p align="justify" class="card-text">Akash is a sophomore at West Windsor-Plainsboro High School South.
-                    Aside from CJSIA, he is passionate about computer
-                    science, physics, and international policy. He participates in his school's Model United Nations
-                    team (<a href="http://southmunc.org">South MUN</a>), in the South
-                    Debate
-                    Team, and is the Secretary of the South Camerata Orchestra. He also pursues his interests in
-                    Computer Science by
-                    competing in the Silver Division of USACO, in various hackathons, and in information
-                    security CTF tournaments.
-                    Akash is excited to lead CJSIA throughout the coming seasons, working alongside students and the
-                    dedicated
-                    board to spread
-                    entrepreneurship skills and promote innovation.</p>
+                    Aside from CJSIA, he is passionate about computer science, physics, and international policy. 
+                    He awarded in his school's Model United Nations team (<a href="http://southmunc.org">South MUN</a>), in the South
+                    Debate Team, and is the Secretary of the South Camerata Orchestra. He also pursues his interests in
+                    Computer Science by competing in the Silver Division of USACO, in various hackathons, and in information
+                    security CTF tournaments. Akash is excited to lead CJSIA throughout the coming seasons, working alongside students and the
+                    dedicated board to spread entrepreneurship skills and foster innovation.</p>
             </div>
         </div>
-        <div class="card  text-center " >
+        <div class="card  text-center ">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/samvit.png" alt="Card image cap">
             <div class="card-body">
@@ -44,12 +38,13 @@
                 <p class="card-text"></p>
             </div>
         </div>
-        <div class="card  text-center " >
+        <div class="card  text-center ">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/rishi.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Rishi Madala</h5>
-                <p align="justify" class="card-text">Rishi is a sophomore at WWP High School South (HSS) and prides
+                <p align="justify" class="card-text">Rishi is a sophomore at West Windsor-Plainsboro High School South
+                    and prides
                     himself in being a
                     well-rounded individual. Within his school, he is the captain of the high school basketball team, a
                     part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also
@@ -61,7 +56,7 @@
         </div>
     </div>
     <div class="card-deck mt-4">
-        <div class="card  text-center " >
+        <div class="card  text-center ">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="../static/images/carol.png" alt="Card image cap">
             <div class="card-body">
@@ -76,15 +71,20 @@
                 </p>
             </div>
         </div>
-        <div class="card  text-center " >
+        <div class="card  text-center ">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Bharat Krishnan</h5>
-                <p class="card-text"></p>
+                <p class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School South with an extensive
+                    background in public speaking and who has a strong interest in pursuing law . Outside of School, Bharat is a member of the Debate
+                    Team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol
+                    Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business
+                    Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others
+                    others in order to teach real-world skills and innovation. </p>
             </div>
         </div>
-        <div class="card  text-center " >
+        <div class="card  text-center ">
             <div class="card-header">Outreach</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
@@ -96,5 +96,10 @@
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
+
+    <br>
+    <hr />
+    <h1 class="display-4 text-center">Alumni</h1>
+
 </div>
 {% endblock %}
