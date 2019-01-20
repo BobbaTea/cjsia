@@ -41,55 +41,55 @@
     "alumni": [
         {
             "name": "Alex Krauel",
-            "path": "../static/images/alumni/alex.jpeg"
+            "path": "../static/images/alumni/alex.png"
         },
         {
             "name": "Kevin Li",
-            "path": "../static/images/alumni/kevin.jpeg"
+            "path": "../static/images/alumni/kevin.png"
         },
         {
             "name": "Vishesh Shah",
-            "path": "../static/images/alumni/vishesh.jpeg"
+            "path": "../static/images/alumni/vishesh.png"
         },
         {
             "name": "Vaibhav Mangipudy",
-            "path": "../static/images/alumni/vaibhav.jpeg"
+            "path": "../static/images/alumni/vaibhav.png"
         },
         {
             "name": "Greg Petrov",
-            "path": "../static/images/alumni/greg.jpeg"
+            "path": "../static/images/alumni/greg.png"
         },
         {
             "name": "Neal Singal",
-            "path": "../static/images/alumni/neal.jpeg"
+            "path": "../static/images/alumni/neal.png"
         },
         {
             "name": "Rishiraj Tripathy",
-            "path": "../static/images/alumni/rishiraj.jpeg"
+            "path": "../static/images/alumni/rishiraj.png"
         },
         {
             "name": "Zaibo Wang",
-            "path": "../static/images/alumni/zaibo.jpeg"
+            "path": "../static/images/alumni/zaibo.png"
         },
         {
             "name": "Jaidev Phadke",
-            "path": "../static/images/alumni/jaidev.jpeg"
+            "path": "../static/images/alumni/jaidev.png"
         },
         {
             "name": "Amar Desai",
-            "path": "../static/images/alumni/amar.jpeg"
+            "path": "../static/images/alumni/amar.png"
         },
         {
             "name": "Tim Feng",
-            "path": "../static/images/alumni/tim.jpeg"
+            "path": "../static/images/alumni/tim.png"
         },
         {
             "name": "Samarth Patel",
-            "path": "../static/images/alumni/samarth.jpeg"
+            "path": "../static/images/alumni/samarth.png"
         },
         {
             "name": "Angela Wang",
-            "path": "../static/images/alumni/angela.jpeg"
+            "path": "../static/images/alumni/angela.png"
         }
     ]
 }
