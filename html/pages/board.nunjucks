@@ -1,4 +1,20 @@
+{% set cssPath = "../static/css/board.css" %}
+{% set jsPath = "" %}
+
+{% extends "base.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/navbar.nunjucks" %}
+<br>
 <div class="container">
+    <h1 id="title" class="display-3 text-center">Our Team(2k19)</h1>
+    <hr />
+    <h1 class="display-4 text-center">Board</h1>
+
+    <!-- <div class="card-group"> -->
+
+    <div class="container">
     <div class="row">
         <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card">
@@ -57,50 +73,43 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card">
-                <div class="card-header">Logistics</div>
+                        <div class="card-header">Logistics</div>
 
                 <img class="card-img-top img-fluid" src="../static/images/board/carol.png" alt="Card image cap">
                 <div class="card-block">
                     <h5 class="card-title">Carol Sun</h5>
-                    <p align="justify" class="card-text">Carol is currently a sophomore at West Windsor-Plainsboro High
-                        School South. Outside of CJSIA, she has pursued her passions for law, history and research by
-                        being
-                        a junior officer of Debate Club, as well as co-Vice President of the National History Day
-                        program
-                        at South. Carol is also a proud member of South’s orchestra program, where she plays violin,
-                        and
-                        serves as a representative on Student Council. Carol looks forward to serving as a co-logistics
-                        officer for CJSIA, as she has great beliefs in the purpose of educating students on the
-                        importance
-                        of entrepreneurship.
-                    </p>
+                     <p align="justify" class="card-text">Carol is currently a sophomore at West Windsor-Plainsboro High
+                    School South. Outside of CJSIA, she has pursued her passions for law, history and research by being
+                    a junior officer of Debate Club, as well as co-Vice President of the National History Day program
+                    at South. Carol is also a proud member of South’s orchestra program, where she plays violin, and
+                    serves as a representative on Student Council. Carol looks forward to serving as a co-logistics
+                    officer for CJSIA, as she has great beliefs in the purpose of educating students on the importance
+                    of entrepreneurship.
+                </p>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card">
-                <div class="card-header">Logistics</div>
+                                    <div class="card-header">Logistics</div>
 
                 <img class="card-img-top img-fluid" src="../static/images/board/bharat.png" alt="Card image cap">
                 <div class="card-block">
                     <h5 class="card-title">Bharat Krishnan</h5>
-                    <p align="justify" class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School
-                        South with an
-                        extensive
-                        background in public speaking and who has a strong interest in pursuing law . Outside of
-                        School,
-                        Bharat is a member of the Debate
-                        Team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol
-                        Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of
-                        Business
-                        Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others
-                        others in order to teach real-world skills and innovation. </p>
+                   <p align="justify" class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School South with an
+                    extensive
+                    background in public speaking and who has a strong interest in pursuing law . Outside of School,
+                    Bharat is a member of the Debate
+                    Team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol
+                    Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business
+                    Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others
+                    others in order to teach real-world skills and innovation. </p>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="card">
-                <div class="card-header">Outreach</div>
+                        <div class="card-header">Outreach</div>
 
                 <img class="card-img-top img-fluid" src="..." alt="Card image cap">
                 <div class="card-block">
@@ -113,3 +122,4 @@
     </div>
 
 </div>
+{% endblock %}
