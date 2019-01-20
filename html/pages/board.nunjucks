@@ -15,9 +15,7 @@
     <!-- <div class="card-group"> -->
 
     <div class="card-deck">
-            <div class="row">
-
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">President</div>
@@ -39,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">Vice President</div>
@@ -50,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">Vice President</div>
@@ -73,12 +71,10 @@
                 </div>
             </div>
         </div>
-        </div>
     </div>
 
     <div class="card-deck mt-4">
-    <div class = "row">
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">Logistics</div>
@@ -100,7 +96,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">Logistics</div>
@@ -121,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-lg-4 col-xl-3">
 
             <div class="card  text-center ">
                 <div class="card-header">Outreach</div>
@@ -131,7 +127,6 @@
                     <p class="card-text"></p>
                 </div>
             </div>
-        </div>
         </div>
     </div>
     <br>
