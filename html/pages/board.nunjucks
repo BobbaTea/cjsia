@@ -27,10 +27,8 @@
                         He awarded in his school's Model United Nations team (<a href="http://southmunc.org">South MUN</a>),
                         in the South
                         Debate Team, and is the Secretary of the South Camerata Orchestra. He also pursues his
-                        interests in
-                        Computer Science by competing in the Silver Division of USACO, in various hackathons, and in
-                        information
-                        security CTF tournaments. Akash is excited to lead CJSIA throughout the coming seasons, working
+                        interests outside school by competing in the Silver Division of USACO, in various hackathons/information
+                        security CTF tournaments, and by playing hockey recreationally. Akash is excited to lead CJSIA throughout the coming seasons, working
                         alongside students and the
                         dedicated board to spread entrepreneurship skills and foster innovation.</p>
                 </div>
@@ -103,7 +101,7 @@
                     <p align="justify" class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School
                         South with an
                         extensive
-                        background in public speaking and who has a strong interest in pursuing law . Outside of
+                        background in public speaking and who has a strong interest in pursuing law. Outside of
                         School,
                         Bharat is a member of the Debate
                         Team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol
@@ -131,30 +129,18 @@
     <h1 class="display-4 text-center">Chapter Representatives</h1>
 
     <br>
-    <hr />
+    <hr />  
     <h1 class="display-4 text-center">Alumni</h1>
-    <ul class="list-unstyled">
-        <li class="media">
-            <img src="../static/images/alumni/.jpeg" class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">Alex Krauel</h5>
+      <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2">
+            <div class="card  text-center my-3">
+                <img class="card-img-top" src="../static/images/board/akash.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Akash Bobba</h5>
+                </div>
             </div>
-        </li>
-        <li class="media my-4">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-            </div>
-        </li>
-        <li class="media">
-            <img src="..." class="mr-3" alt="...">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
-                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-                fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-        </li>
-    </ul>
+        </div>
+        
+   
 </div>
 {% endblock %}
+
