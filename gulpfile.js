@@ -23,7 +23,7 @@ const data = require('gulp-data');
     return gulp.src('html/pages/**/*.+(html|nunjucks)')
       // Adding data to nunjucks
       .pipe(data(function() {
-        return require('.data.json')
+        return require('./html/data.json')
       }))
       .pipe(nunjucksRender())
       .pipe(gulp.dest('html'))
