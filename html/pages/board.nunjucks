@@ -73,7 +73,7 @@
         </div>
         <div class="card  text-center ">
             <div class="card-header">Logistics</div>
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="../static/images/bharat.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Bharat Krishnan</h5>
                 <p class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School South with an extensive
