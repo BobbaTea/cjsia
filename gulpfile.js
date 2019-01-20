@@ -13,7 +13,7 @@ gulp.task('render', function() {
     // output files in app folder
     .pipe(gulp.dest('html'))
     .pipe(data(function () {
-      return require('.html/pages/data.json')
+      return require('html/pages/data.json')
   }))
  
   });
