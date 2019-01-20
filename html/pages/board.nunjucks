@@ -14,7 +14,6 @@
 
     <!-- <div class="card-group"> -->
 
-    <div class="card-deck">
     
         <div class="card mx-3 text-center " style="width: 18rem;">
             <div class="card-header">President</div>
@@ -59,8 +58,6 @@
                     real-world skills.</p>
             </div>
         </div>
-    </div>
-    <div class="card-deck mt-4">
         <div class="card mx-3 text-center " style="width: 18rem;">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="../static/images/carol.png" alt="Card image cap">
@@ -92,7 +89,6 @@
                 <p class="card-text"></p>
             </div>
         </div>
-    </div>
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
