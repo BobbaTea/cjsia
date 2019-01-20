@@ -16,7 +16,7 @@
     <div class="card-deck">
         {% for board_member in board %}
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="shadow-md card  text-center my-3">
+            <div class="shadow-lg card  text-center my-3">
                 <div class="card-header">{{ board_member.position }}</div>
                 <img class="card-img-top" src="{{ board_member.path }}" alt="Card image cap">
                 <div class="card-body">
