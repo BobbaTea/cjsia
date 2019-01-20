@@ -44,7 +44,7 @@ function update()
    // `git clean -f -d`;
    `git fetch origin master`;
    `git pull`;
-   `gulp nunjucks`;
+   `gulp render`;
    header('Location: /update.php?s=1');
 }
 function fupdate()
@@ -52,12 +52,12 @@ function fupdate()
    // `git clean -f -d`;
    `git fetch origin master`;
    `git reset --hard FETCH_HEAD`;
-   `gulp nunjucks`;
+   `gulp render`;
    header('Location: /update.php?s=1');
 }
 function cleanG(){
     `git clean -f -d`;
-    `gulp nunjucks`;
+    `gulp render`;
     header('Location: /update.php');
 
 }

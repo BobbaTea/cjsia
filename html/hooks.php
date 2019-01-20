@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
    if($c === "true"){
       `git fetch origin master`;
       `git pull`;
-      `gulp nunjucks`;
+      `gulp render`;
       echo "SUCCESS!";
    }else{
    echo "FAILED!";

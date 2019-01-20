@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const nunjucksRender = require('gulp-nunjucks-render');
 
 
-gulp.task('nunjucks', function() {
+gulp.task('render', function() {
     // Gets .html and .nunjucks files in pages
     return gulp.src('html/pages/**/*.+(html|nunjucks)')
     // Renders template with nunjucks

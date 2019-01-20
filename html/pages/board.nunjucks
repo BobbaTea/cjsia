@@ -13,7 +13,7 @@
     <h1 class="display-4 text-center">Board</h1>
 
     <!-- <div class="card-group"> -->
-    <div class ="card-deck">
+    <div class="card-deck">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
             <div class="card  text-center my-3">
@@ -27,8 +27,10 @@
                         He awarded in his school's Model United Nations team (<a href="http://southmunc.org">South MUN</a>),
                         in the South
                         Debate Team, and is the Secretary of the South Camerata Orchestra. He also pursues his
-                        interests outside school by competing in the Silver Division of USACO, in various hackathons/information
-                        security CTF tournaments, and by playing hockey recreationally. Akash is excited to lead CJSIA throughout the coming seasons, working
+                        interests outside school by competing in the Silver Division of USACO, in various
+                        hackathons/information
+                        security CTF tournaments, and by playing hockey recreationally. Akash is excited to lead CJSIA
+                        throughout the coming seasons, working
                         alongside students and the
                         dedicated board to spread entrepreneurship skills and foster innovation.</p>
                 </div>
@@ -122,25 +124,27 @@
                     <p class="card-text"></p>
                 </div>
             </div>
-            </div>
         </div>
+    </div>
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
 
     <br>
-    <hr />  
+    <hr />
     <h1 class="display-4 text-center">Alumni</h1>
-      <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2">
-            <div class="card  text-center my-3">
-                <img class="card-img-top" src="../static/images/board/akash.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Akash Bobba</h5>
-                </div>
+
+    {% for alumnus in alumni %}
+    <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xl-2">
+        <div class="card  text-center my-3">
+            <img class="card-img-top" src="{{ alumnus.path }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ alumnus.name }}</h5>
             </div>
         </div>
-        
-   
+    </div>
+    {% endfor %}
+
+
 </div>
 {% endblock %}
-
