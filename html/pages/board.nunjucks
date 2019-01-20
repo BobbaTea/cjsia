@@ -16,7 +16,7 @@
     <div class ="card-deck">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">President</div>
                 <img class="card-img-top" src="../static/images/board/akash.png" alt="Card image cap">
                 <div class="card-body">
@@ -38,7 +38,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">Vice President</div>
                 <img class="card-img-top" src="../static/images/board/samvit.png" alt="Card image cap">
                 <div class="card-body">
@@ -49,7 +49,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">Vice President</div>
                 <img class="card-img-top" src="../static/images/board/rishi.png" alt="Card image cap">
                 <div class="card-body">
@@ -73,7 +73,7 @@
 
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">Logistics</div>
                 <img class="card-img-top" src="../static/images/board/carol.png" alt="Card image cap">
                 <div class="card-body">
@@ -95,7 +95,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">Logistics</div>
                 <img class="card-img-top" src="../static/images/board/bharat.png" alt="Card image cap">
                 <div class="card-body">
@@ -116,7 +116,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-            <div class="card  text-center ">
+            <div class="card  text-center my-3">
                 <div class="card-header">Outreach</div>
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
