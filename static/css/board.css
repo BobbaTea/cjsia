@@ -95,7 +95,6 @@ html {
     }
 }
 
-// Bootstrap 4 breakpoints & gutter
 $grid-breakpoints: (
     xs: 0,
     sm: 576px,
@@ -106,7 +105,6 @@ $grid-breakpoints: (
 
 $grid-gutter-width: 30px !default;
 
-// number of cards per line for each breakpoint
 $cards-per-line: (
     xs: 1,
     sm: 2,
