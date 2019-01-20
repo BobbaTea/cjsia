@@ -8,7 +8,7 @@ gulp.task('render', function() {
     return gulp.src('html/pages/**/*.+(html|nunjucks)')
     // Renders template with nunjucks
     .pipe(data(function() {
-      return require('./cjsia/data.json')
+      return require('./data.json')
     }))
     .pipe(nunjucksRender({
         path: ['html/templates']
@@ -18,4 +18,3 @@ gulp.task('render', function() {
   
  
   });
-
