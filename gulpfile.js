@@ -18,7 +18,7 @@ const data = require('gulp-data');
   
  
 //   });
-  gulp.task('nunjucks', function() {
+  gulp.task('render', function() {
     return gulp.src('html/pages/**/*.+(html|nunjucks)')
       // Adding data to nunjucks
       .pipe(data(function() {
