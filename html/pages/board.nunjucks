@@ -79,7 +79,7 @@
             <img class="card-img-top" src="../static/images/board/bharat.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Bharat Krishnan</h5>
-                <p class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School South with an
+                <p align="justify" class="card-text">Bharat is a sophomore at West Windsor-Plainsboro High School South with an
                     extensive
                     background in public speaking and who has a strong interest in pursuing law . Outside of School,
                     Bharat is a member of the Debate
