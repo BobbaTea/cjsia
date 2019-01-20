@@ -13,6 +13,7 @@
     <h1 class="display-4 text-center">Board</h1>
 
     <!-- <div class="card-group"> -->
+    <div class ="card-deck">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
             <div class="card  text-center ">
@@ -122,6 +123,7 @@
                     <h5 class="card-title">Gabrielle Bailey</h5>
                     <p class="card-text"></p>
                 </div>
+            </div>
             </div>
         </div>
     <br>
