@@ -15,9 +15,8 @@
     <!-- <div class="card-group"> -->
 
     <div class="card-deck">
-    <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
+    
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">President</div>
             <img class="card-img-top" src="../static/images/akash.png" alt="Card image cap">
             <div class="card-body">
@@ -36,22 +35,16 @@
                     board to spread
                     entrepreneurship skills and promote innovation.</p>
             </div>
-            </div>
         </div>
-        <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/samvit.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Samvit Agarwal</h5>
                 <p class="card-text"></p>
             </div>
-            </div>
         </div>
-        <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">Vice President</div>
             <img class="card-img-top" src="../static/images/rishi.png" alt="Card image cap">
             <div class="card-body">
@@ -65,13 +58,10 @@
                     students on the basis of innovation and entrepreneurship to facilitate the development of
                     real-world skills.</p>
             </div>
-            </div>
         </div>
     </div>
     <div class="card-deck mt-4">
-    <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="../static/images/carol.png" alt="Card image cap">
             <div class="card-body">
@@ -85,29 +75,21 @@
                     of entrepreneurship.
                 </p>
             </div>
-            </div>
         </div>
-                <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
-
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">Logistics</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Bharat Krishnan</h5>
                 <p class="card-text"></p>
             </div>
-            </div>
         </div>
-                <div class="container-fluid">
-
-        <div class="card mx-auto text-center mr-3" style="width: 18rem;">
+        <div class="card mx-auto text-center " style="width: 18rem;">
             <div class="card-header">Outreach</div>
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Gabrielle Bailey</h5>
                 <p class="card-text"></p>
-            </div>
             </div>
         </div>
     </div>
