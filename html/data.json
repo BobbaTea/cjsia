@@ -7,16 +7,16 @@
             "path": "../static/images/board/akash.png"
         },
         {
-            "name": "Samvit Agarwal",
-            "position": "Vice President",
-            "bio": "",
-            "path": "../static/images/board/samvit.png"
-        },
-        {
             "name": "Rishi Madala",
             "position": "Vice President",
             "bio": "Rishi is a sophomore at West Windsor-Plainsboro High School South and prides himself in being a well-rounded individual. Within his school, he is the captain of the high school basketball team, a part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also involved in his local community as he is a mentor in the Tutoring Desk and Study Buddy programs. He is very excited to serve as the Vice-President for CJSIA for 2019 and years to come and empower students on the basis of innovation and entrepreneurship to facilitate the development of real-world skills.",
             "path": "../static/images/board/rishi.png"
+        },
+        {
+            "name": "Samvit Agarwal",
+            "position": "Vice President",
+            "bio": "",
+            "path": "../static/images/board/samvit.png"
         },
         {
             "name": "Carol Sun",
