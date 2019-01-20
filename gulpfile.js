@@ -12,9 +12,9 @@ gulp.task('render', function() {
       }))
     // output files in app folder
     .pipe(gulp.dest('html'))
-    .pipe(data(function () {
-      return require('html/pages/data.json')
-  }))
+    .pipe(data(function() {
+      return require('./cjsia/data.json')
+    }))
  
   });
 
