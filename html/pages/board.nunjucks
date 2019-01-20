@@ -61,7 +61,6 @@
                         <div class="card-header">Vice President</div>
 
                         <img class="card-img-top img-fluid" src="../static/images/board/rishi.png" alt="Card image cap">
-                        <div class="card-block">
                             <h5 class="card-title">Rishi Madala</h5>
                             <p align="justify" class="card-text">Rishi is a sophomore at West Windsor-Plainsboro High
                                 School
@@ -82,7 +81,6 @@
                                 of
                                 real-world skills.</p>
                         </div>
-                    </div>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
