@@ -6092,7 +6092,15 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
+.bg-translucent {
+  background-color: #f8f9fa62 !important;
+}
 
+a.bg-translucent:hover, a.bg-translucent:focus,
+button.bg-translucent:hover,
+button.bg-translucent:focus {
+  background-color: #dae0e562 !important;
+}
 
 .bg-transparent {
   background-color: #00000062 !important;
