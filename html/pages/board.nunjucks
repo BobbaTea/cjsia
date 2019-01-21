@@ -36,9 +36,9 @@
     <div class="row">
 
     {% for chapter in chapters %}
-    <div class="">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <div class="card-header-custom text-center">{{chapter.name}}</div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 card-group">
+        <div class="card-group">
             {% for rep in chapter.reps %}
 
             <div class="card text-center">
