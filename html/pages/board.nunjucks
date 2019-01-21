@@ -37,10 +37,10 @@
         {% for chapter in chapters %}
 
 
-        <div class="">
 
-            <div class="card-header text-center">{{chapter.name}}</div>
             <div class="card-group">
+                        <div class="card-header text-center">{{chapter.name}}</div>
+
                 {% for rep in chapter.reps %}
 
                 <div class="card text-center">
