@@ -38,11 +38,11 @@
         {% for chapter in chapters %}
 
         <div class="container">
-            <div class="card-header-custom">{{chapter.name}}</div>
+            <div class="card-header-custom col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">{{chapter.name}}</div>
             <div class="card-group">
                 {% for rep in chapter.reps %}
 
-                <div class="card">
+                <div class="card text-cente">
                     <img class="card-img-top" src="{{rep.path}}" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">{{rep.name}}</h4>
