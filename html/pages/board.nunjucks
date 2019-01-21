@@ -31,46 +31,45 @@
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
+    <div class="row">
 
-    <div class="container">
 
         {% for chapter in chapters %}
 
 
-    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
 
-        <div class="card-group">
-            {% for rep in chapter.reps %}
-            <div class="card text-center">
-                <img class="card-img-top" src="{{rep.path}}" alt="Card image cap">
+            <div class="card-group">
+                {% for rep in chapter.reps %}
+                <div class="card text-center">
+                    <img class="card-img-top" src="{{rep.path}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">{{rep.name}}</h4>
+                        <p class="card-text">{{chapter.name}} - {{rep.position}}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+</div>
+    <br>
+    <hr />
+    <h1 class="display-4 text-center">Alumni</h1>
+
+    <div class="row">
+
+        {% for alumnus in alumni %}
+        <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
+            <div class="card text-center my-3 mx-auto">
+                <img class="card-img-top" src="{{ alumnus.path }}" alt="Card image cap">
                 <div class="card-body">
-                    <h4 class="card-title">{{rep.name}}</h4>
-                    <p class="card-text">{{chapter.name}} - {{rep.position}}</p>
+                    <h5 class="card-title">{{ alumnus.name }}</h5>
                 </div>
             </div>
-            {% endfor %}
         </div>
-</div>
-    {% endfor %}
-</div>
-
-<br>
-<hr />
-<h1 class="display-4 text-center">Alumni</h1>
-
-<div class="row">
-
-    {% for alumnus in alumni %}
-    <div class="col-6 col-sm-6 col-md-4 col-lg-2 col-xl-2">
-        <div class="card text-center my-3 mx-auto">
-            <img class="card-img-top" src="{{ alumnus.path }}" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">{{ alumnus.name }}</h5>
-            </div>
-        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
 
 </div>
 {% endblock %}
