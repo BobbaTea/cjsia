@@ -18,7 +18,7 @@ canvas {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: linear-gradient(to bottom right, rgb(0,0,0), rgb(100,100,100));
+    background-image: linear-gradient(to bottom right, rgba(0, 204, 255, 0.404), rgba(255, 230, 0, 0.336));
 
 }
 
