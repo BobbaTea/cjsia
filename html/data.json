@@ -9,31 +9,31 @@
         {
             "name": "Rishi Madala",
             "position": "Vice President",
-            "bio": "Rishi is a sophomore at West Windsor-Plainsboro High School South and prides himself in being a well-rounded individual. Within his school, he is the captain of the high school basketball team, a part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also involved in his local community as he is a mentor in the Tutoring Desk and Study Buddy programs. He is very excited to serve as the Vice-President for CJSIA for 2019 and years to come and empower students on the basis of innovation and entrepreneurship to facilitate the development of real-world skills.",
+            "bio": "Rishi is a student at West Windsor-Plainsboro High School South and prides himself in being a well-rounded individual. Within his school, he is the captain of the high school basketball team, a part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also involved in his local community as he is a mentor in the Tutoring Desk and Study Buddy programs. He is very excited to serve as the Vice-President for CJSIA for 2019 and years to come and empower students on the basis of innovation and entrepreneurship to facilitate the development of real-world skills.",
             "path": "../static/images/board/rishi.png"
         },
         {
             "name": "Samvit Agarwal",
             "position": "Vice President",
-            "bio": "",
+            "bio": "Samvit is a student at WWP South with a passion for public speaking, computer science and entrepreneurship. In school, he is a part of the Model United Nations team, an active member of the Debate club and a junior officer in the Absolute Coding Club. Outside of school, Samvit regularly attends hackathons, competes in competitive programming competitions and volunteers, helping younger kids academically. A true advocate for leadership and innovation, Samvit is excited to serve as the Vice President of CJSIA for the coming years.",
             "path": "../static/images/board/samvit.png"
         },
         {
             "name": "Carol Sun",
             "position": "Logistics",
-            "bio": "Carol is currently a sophomore at West Windsor-Plainsboro High School South. Outside of CJSIA, she has pursued her passions for law, history and research by being a junior officer of Debate Club, as well as co-Vice President of the National History Day program at South. Carol is also a proud member of South’s orchestra program, where she plays violin, and serves as a representative on Student Council. Carol looks forward to serving as a co-logistics officer for CJSIA, as she has great beliefs in the purpose of educating students on the importance of entrepreneurship.",
+            "bio": "Carol is currently a student at West Windsor-Plainsboro High School South. Outside of CJSIA, she has pursued her passions for law, history and research by being a junior officer of Debate Club, as well as co-Vice President of the National History Day program at South. Carol is also a proud member of South’s orchestra program, where she plays violin, and serves as a representative on Student Council. Carol looks forward to serving as a co-logistics officer for CJSIA, as she has great beliefs in the purpose of educating students on the importance of entrepreneurship.",
             "path": "../static/images/board/carol.png"
         },
         {
             "name": "Bharat Krishan",
             "position": "Logistics",
-            "bio": "Bharat is a sophomore at West Windsor-Plainsboro High School South with an extensive background in public speaking and who has a strong interest in pursuing law. Outside of school, Bharat is a member of the debate team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others others in order to teach real-world skills and innovation.",
+            "bio": "Bharat is a student at West Windsor-Plainsboro High School South with an extensive background in public speaking and who has a strong interest in pursuing law. Outside of school, Bharat is a member of the debate team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others others in order to teach real-world skills and innovation.",
             "path": "../static/images/board/bharat.png"
         },
         {
             "name": "Gabrielle Bailey",
             "position": "Outreach",
-            "bio": "Gabrielle is a sophomore at West Windsor-Plainsboro High School South and is driven by a passion for science and law. Aside from CJSIA, Gabrielle is an attorney for the High School South Mock Trial Team and a member of Advanced Committee for the Waksman Student Scholars Program. Gabrielle is also an officer for the South Artists for Charity Club and a member of the Pirate's Ultimate Frisbee Team. Gabrielle hopes to encourage more students to learn about entrepreneurship through CJSIA.",
+            "bio": "Gabrielle is a student at West Windsor-Plainsboro High School South and is driven by a passion for science and law. Aside from CJSIA, Gabrielle is an attorney for the High School South Mock Trial Team and a member of Advanced Committee for the Waksman Student Scholars Program. Gabrielle is also an officer for the South Artists for Charity Club and a member of the Pirate's Ultimate Frisbee Team. Gabrielle hopes to encourage more students to learn about entrepreneurship through CJSIA.",
             "path": "../static/images/board/gabby.png"
         }
     ],
