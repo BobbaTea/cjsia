@@ -43,12 +43,12 @@
             "reps": [
                 {
                     "name": "Example",
-                    "position": "School Representative",
+                    "position": "Representative",
                     "path": "../static/images/board/akash.png"
                 },
                 {
                     "name": "Example 2",
-                    "position": "School Publicist",
+                    "position": "Publicist",
                     "path": "../static/images/board/rishi.png"
                 }
             ]
@@ -58,12 +58,12 @@
             "reps": [
                 {
                     "name": "Example 3",
-                    "position": "School Representative",
+                    "position": "Representative",
                     "path": "../static/images/board/samvit.png"
                 },
                 {
                     "name": "Example 4",
-                    "position": "School Publicist",
+                    "position": "Publicist",
                     "path": "../static/images/board/carol.png"
                 }
             ]
