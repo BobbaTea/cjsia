@@ -43,7 +43,7 @@
                 {% for rep in chapter.reps %}
 
                 <div class="card">
-                    <img class="card-img-top" data-src="{{rep.path}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{rep.path}}" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">{{rep.name}}</h4>
                         <p class="card-text"></p>
