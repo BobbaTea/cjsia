@@ -32,6 +32,31 @@
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
 
+
+    <div class="row">
+
+        {% for chapter in chapters %}
+
+        <div class="container">
+            <div class="card-header-custom">{{chapter.name}}</div>
+            <div class="card-group">
+                {% for rep in chapter.reps %}
+
+                <div class="card">
+                    <img class="card-img-top" data-src="{{rep.path}}" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">{{rep.name}}</h4>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+
     <br>
     <hr />
     <h1 class="display-4 text-center">Alumni</h1>

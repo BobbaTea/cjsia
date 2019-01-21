@@ -37,7 +37,38 @@
             "path": "../static/images/board/gabby.png"
         }
     ],
-    "reps": [],
+    "chapters": [
+        {
+            "name": "WWP South",
+            "reps": [
+                {
+                    "name": "Example",
+                    "position": "School Representative",
+                    "path": "../static/images/board/akash.png"
+                },
+                {
+                    "name": "Example 2",
+                    "position": "School Publicist",
+                    "path": "../static/images/board/rishi.png"
+                }
+            ]
+        },
+        {
+            "name": "WWP North",
+            "reps": [
+                {
+                    "name": "Example 3",
+                    "position": "School Representative",
+                    "path": "../static/images/board/samvit.png"
+                },
+                {
+                    "name": "Example 4",
+                    "position": "School Publicist",
+                    "path": "../static/images/board/carol.png"
+                }
+            ]
+        }
+    ],
     "alumni": [
         {
             "name": "Alex Krauel",
