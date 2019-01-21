@@ -31,7 +31,7 @@
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
-    <div class="row">
+    <div class="card-deck">
 
 
         {% for chapter in chapters %}
