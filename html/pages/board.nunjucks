@@ -31,7 +31,6 @@
     <br>
     <hr />
     <h1 class="display-4 text-center">Chapter Representatives</h1>
-    <div class="card-deck">
 
 
         {% for chapter in chapters %}
@@ -52,7 +51,7 @@
             </div>
         </div>
         {% endfor %}
-</div>
+        
     <br>
     <hr />
     <h1 class="display-4 text-center">Alumni</h1>
