@@ -37,6 +37,8 @@
 
     {% for chapter in chapters %}
     <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <div class="card text-center">
+
         <div class="card-header text-center">{{chapter.name}}</div>
         <div class="card-group">
             {% for rep in chapter.reps %}
@@ -50,6 +52,7 @@
             </div>
             {% endfor %}
         </div>
+    </div>
     </div>
     {% endfor %}
 </div>
