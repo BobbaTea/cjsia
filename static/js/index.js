@@ -176,7 +176,7 @@ function animate() {
     // document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
 
 }
-document.body.style.background = "linear-gradient(to bottom right, rgb(0,0,0), rgb(100,100,100))";
+document.body.style.background = "linear-gradient(to bottom right, rgba(0, 204, 255, 0.404), rgba(255, 230, 0, 0.336))";
 
 init()
 animate()
