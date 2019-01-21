@@ -40,7 +40,6 @@
                 <div class="card text-center">
 
         <div class="card-header text-center">{{chapter.name}}</div>
-        <div class="card-group">
             {% for rep in chapter.reps %}
 
             <div class="card text-center">
@@ -51,7 +50,6 @@
                 </div>
             </div>
             {% endfor %}
-        </div>
     </div>
     </div>
     {% endfor %}
