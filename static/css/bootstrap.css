@@ -6095,13 +6095,13 @@ button.bg-light:focus {
 
 
 .bg-transparent {
-  background-color: #00000062 !important;
+  background-color: #000000 !important;
 }
 
 a.bg-transparent:hover, a.bg-transparent:focus,
 button.bg-transparent:hover,
 button.bg-transparent:focus {
-  background-color: #00000062 !important;
+  background-color: #000000 !important;
 }
 
 .bg-dark {
