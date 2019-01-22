@@ -1,6 +1,5 @@
 {% set cssPath = "../static/css/board.css" %}
 {% set jsPath = "" %}
-{% set board = true %}
 
 {% extends "base.nunjucks" %}
 
