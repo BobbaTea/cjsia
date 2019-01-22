@@ -8,10 +8,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="nav navbar-nav nav-tabs navbar-center">
-        <li class="nav-item {% if home %} active {% endif %}">
+        <li class="nav-item">
           <a draggable="false" class="nav-link" href="/">home </a>
         </li>
-        <li class="nav-item dropdown {% if board %} active {% elif mission %} active {% endif %}">
+        <li class="nav-item dropdown">
           <a draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             about
@@ -21,7 +21,7 @@
             <a draggable="false" class="dropdown-item" href="/board">board</a>
           </div>
         </li>
-        <li class="nav-item dropdown {% if seminars %} active {% elif psd %} active {% elif launch %} active {% endif %}">
+        <li class="nav-item dropdown">
           <a draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             programs
@@ -32,10 +32,10 @@
             <a draggable="false" class="dropdown-item" href="/launch">launch program</a>
           </div>
         </li>
-        <li class="nav-item {% if gallery %} active {% endif %}">
+        <li class="nav-item">
           <a draggable="false" class="nav-link" href="/gallery">gallery</a>
         </li>
-        <li class="nav-item {% if contact %} active {% endif %}">
+        <li class="nav-item">
           <a draggable="false" class="nav-link" href="/contact">contact</a>
         </li>
       </ul>
