@@ -3027,7 +3027,7 @@ input[type="button"].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #00000088;
+  background-color: #c7c7c7d3;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
@@ -6093,17 +6093,17 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 .bg-translucent {
-  background-color: #00000088 !important;
+  background-color: #c7c7c77c !important;
 }
 
 a.bg-translucent:hover, a.bg-translucent:focus,
 button.bg-translucent:hover,
 button.bg-translucent:focus {
-  background-color: #00000088 !important;
+  background-color: #c7c7c77c !important;
 }
 
 .bg-transparent {
-  background-color: #00000062 !important;
+  background-color: transparent !important;
 }
 
 a.bg-transparent:hover, a.bg-transparent:focus,
