@@ -50,6 +50,10 @@
     font-weight: lighter;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    border: 0;
-    }
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+    border-color: #00000088;
+    border-bottom-color: transparent;
+}
+.nav-tabs {
+   border-bottom: 1px solid #00000088;
+}
