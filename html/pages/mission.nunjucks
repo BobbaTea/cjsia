@@ -8,5 +8,16 @@
 {% include "partials/navbar.nunjucks" %}
 
 
+<h1 class="display-3">Our Mission</h1>
+<div class="jumbotron">
+    <div class="container">
+        <p class="lead">The Association's founding goal is to provide an outlet for students to share and hone their
+            skills in innovation and entrepreneurship. The Association was founded by four Central Jersey high school
+            students who share a passion for innovation, problem solving, and the entrepreneurial spirit. We believe
+            that in each student lies the potential to change the world in some way, shape, or form. The Central Jersey
+            Student Innovators' Association is here to help realize this potential and transform ideas into plans
+            primed for execution in the real world.</p>
+    </div>
+</div>
 
 {% endblock %}
