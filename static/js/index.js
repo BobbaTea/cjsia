@@ -6,7 +6,7 @@ const c = canvas.getContext('2d')
 
 canvas.width = innerWidth
 canvas.height = innerHeight
-const maxRadius = canvas.width*canvas.height/129600
+const maxRadius = 7
 const minRadius = 2
 const numCircles = Math.floor((300 / 842400) * canvas.width * canvas.height)
 const maxVel = 2
