@@ -6,6 +6,9 @@
 {% block content %}
 
 {% include "partials/navbar.nunjucks" %}
+<br>
+<br>
+<br>
 
 
 <div class="jumbotron">
