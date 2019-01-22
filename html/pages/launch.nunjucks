@@ -8,5 +8,11 @@
 {% include "partials/navbar.nunjucks" %}
 
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Launch Program - Coming Soon!</h1>
+    <p class="lead">For more information or questions feel free to <a href"/contact">contact</a> us.</p>
+  </div>
+</div>
 
 {% endblock %}
