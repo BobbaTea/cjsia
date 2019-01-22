@@ -54,6 +54,6 @@
     border-color: #00000088;
     border-bottom-color: transparent;
 }
-.nav-tabs {
-   border-bottom: 1px solid #00000088;
+.nav .dropdown .dropdown-toggle { 
+    border: 0px ;
 }
