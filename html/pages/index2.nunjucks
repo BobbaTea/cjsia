@@ -1,5 +1,6 @@
 {% set cssPath = "../static/css/index.css" %}
 {% set jsPath = "../static/js/index.js" %}
+{% set home = true %}
 
 {% extends "base.nunjucks" %}
 
