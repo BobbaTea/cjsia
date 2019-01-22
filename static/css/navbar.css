@@ -49,3 +49,7 @@
     src: url(../fonts/vl.otf);
     font-weight: lighter;
 }
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 0;
+    }
