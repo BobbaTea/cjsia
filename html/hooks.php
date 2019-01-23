@@ -15,3 +15,34 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 
 ?>
+
+<!-- {
+            "name": "WWP South",
+            "reps": [
+                {
+                    "name": "Example",
+                    "position": "Representative",
+                    "path": "../static/images/board/akash.png"
+                },
+                {
+                    "name": "Example 2",
+                    "position": "Publicist",
+                    "path": "../static/images/board/rishi.png"
+                }
+            ]
+        },
+        {
+            "name": "WWP North",
+            "reps": [
+                {
+                    "name": "Example 3",
+                    "position": "Representative",
+                    "path": "../static/images/board/samvit.png"
+                },
+                {
+                    "name": "Example 4",
+                    "position": "Publicist",
+                    "path": "../static/images/board/carol.png"
+                }
+            ]
+        } -->
