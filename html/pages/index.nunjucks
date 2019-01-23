@@ -1,4 +1,4 @@
-{% set cssPath = "../static/css/index.css" %}
+,{% set cssPath = "../static/css/index.css" %}
 {% set jsPath = "../static/js/index.js" %}
 {% set home = true %}
 
@@ -10,9 +10,10 @@
 
 <div class="container">
     <h1 class="display-1" style="text-align:center;" id="title"> CJSIA
-        <small id="sub" class="text-muted">Central Jersey Student Innovators' Association</small>
+        <small id="sub" class="text-muted">Central Jersey Student Innovators' Association you can;t duck the zuck</small>
     </h1>
 </div>
 <canvas id="bg" width="500"></canvas>
 
 {% endblock %}
+
