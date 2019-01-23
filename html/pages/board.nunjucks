@@ -5,6 +5,8 @@
 
 {% block content %}
 
+{% include "partials/navbar.nunjucks" %}
+
 <div class="container">
     <h1 id="title" class="display-3 text-center">Our Team(2k19)</h1>
     <hr />
