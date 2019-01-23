@@ -20,14 +20,14 @@
         },
         {
             "name": "Carol Sun",
-            "position": "Logistics",
-            "bio": "Carol is currently a student at West Windsor-Plainsboro High School South. Outside of CJSIA, she has pursued her passions for law, history and research by being a junior officer of Debate Club, as well as co-Vice President of the National History Day program at South. Carol is also a proud member of South’s orchestra program, where she plays violin, and serves as a representative on Student Council. Carol looks forward to serving as a co-logistics officer for CJSIA, as she has great beliefs in the purpose of educating students on the importance of entrepreneurship.",
+            "position": "Secretary",
+            "bio": "Carol is currently a student at West Windsor-Plainsboro High School South. Outside of CJSIA, she has pursued her passions for law, history and research by being a junior officer of Debate Club, as well as co-Vice President of the National History Day program at South. Carol is also a proud member of South’s orchestra program, where she plays violin, and serves as a representative on Student Council. Carol looks forward to serving as the secretary for CJSIA, as she has great beliefs in the purpose of educating students on the importance of entrepreneurship.",
             "path": "../static/images/board/carol.png"
         },
         {
             "name": "Bharat Krishan",
-            "position": "Logistics",
-            "bio": "Bharat is a student at West Windsor-Plainsboro High School South with an extensive background in public speaking and who has a strong interest in pursuing law. Outside of school, Bharat is a member of the debate team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business Club. As co-logistics officer for CJSIA, Bharat is excited to share his experience with others others in order to teach real-world skills and innovation.",
+            "position": "Secretary General",
+            "bio": "Bharat is a student at West Windsor-Plainsboro High School South with an extensive background in public speaking and who has a strong interest in pursuing law. Outside of school, Bharat is a member of the debate team, awarding at multiple national tournaments including Princeton Moot Court, and the Capitol Beltway Classic. He also is an attorney for his school’s Mock Trial Team and an officer of Business Club. As secretary for CJSIA, Bharat is excited to share his experience with others others in order to teach real-world skills and innovation.",
             "path": "../static/images/board/bharat.png"
         },
         {
