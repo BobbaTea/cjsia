@@ -15,5 +15,6 @@
 </div>
 <canvas id="bg" width="500"></canvas>
 
+
 {% endblock %}
 
