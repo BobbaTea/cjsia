@@ -37,9 +37,7 @@
             "path": "../static/images/board/gabby.png"
         }
     ],
-    "chapters": [
-      
-    ],
+    "chapters": [],
     "alumni": [
         {
             "name": "Alex Krauel",
@@ -97,6 +95,47 @@
             "name": "Angela Wang",
             "path": "../static/images/alumni/angela.png"
         }
+    ],
+    "mission_carousel": [
+        {
+            "name": "image",
+            "path": "../static/images/psd/17-18/1/img1.jpg"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/psd/17-18/1/img10.jpg"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        },
+        {
+            "name": "Alex Krauel",
+            "path": "../static/images/alumni/alex.png"
+        }
     ]
 }
-
