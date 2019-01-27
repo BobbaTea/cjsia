@@ -1,0 +1,13 @@
+{% set cssPath = "../static/css/mission.css" %}
+{% set jsPath = "" %}
+{% set contact = true %}
+
+{% extends "base.nunjucks" %}
+
+{% block content %}
+
+{% include "partials/navbar.nunjucks" %}
+
+
+
+{% endblock %}

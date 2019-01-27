@@ -32,8 +32,19 @@
             <a draggable="false" class="dropdown-item" href="/launch">launch program</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a draggable="false" class="nav-link" href="/gallery">gallery</a>
+       <li class="nav-item dropdown">
+          <a draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            past events
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a draggable="false" class="dropdown-item" href="/seminars-gallery">seminars</a>
+            <a draggable="false" class="dropdown-item" href="/psd-gallery">presentational skills development</a>
+            <a draggable="false" class="dropdown-item" href="/innov-contest-gallery">innovation contests</a>
+          </div>
+        </li>
+         <li class="nav-item">
+          <a draggable="false" class="nav-link" href="/join">join</a>
         </li>
         <li class="nav-item">
           <a draggable="false" class="nav-link" href="/contact">contact</a>
