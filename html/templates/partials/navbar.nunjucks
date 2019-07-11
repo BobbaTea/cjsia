@@ -21,8 +21,8 @@
               <a draggable="false" class="dropdown-item" href="/board">board</a>
             </div>
           </li>
-           <li class="disabled" class="nav-item dropdown">
-            <a draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+           <li class="nav-item dropdown">
+            <a disabled="disabled" draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               programs
             </a>
