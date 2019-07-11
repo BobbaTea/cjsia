@@ -21,8 +21,8 @@
               <a draggable="false" class="dropdown-item" href="/board">board</a>
             </div>
           </li>
-           <li class="nav-item dropdown">
-            <a disabled="disabled" draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+           <li class="nav-item dropdown disabled">
+            <a draggable="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               programs
             </a>
@@ -58,3 +58,10 @@
     </div>
   </nav>
 </div>
+<script>
+$(document).ready(function() {
+   $(".nav li.disabled a").click(function() {
+     return false;
+   });
+});
+</script
