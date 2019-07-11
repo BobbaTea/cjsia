@@ -27,9 +27,9 @@
               programs
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a draggable="false" class="dropdown-item disabled" href="/seminars">seminars</a>
-              <a draggable="false" class="dropdown-item disabled" href="/psd">presentational skills development</a>
-              <a draggable="false" class="dropdown-item disabled" href="/launch">launch program</a>
+              <a draggable="false" class="dropdown-item" href="/seminars">seminars</a>
+              <a draggable="false" class="dropdown-item" href="/psd">presentational skills development</a>
+              <a draggable="false" class="dropdown-item" href="/launch">launch program</a>
             </div>
           </li> 
           <li class="nav-item dropdown">
