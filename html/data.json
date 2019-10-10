@@ -1,6 +1,12 @@
 {
     "board": [
         {
+            "name": "Rohan Kohli",
+            "position": "Co-President",
+            "bio": "Rohan is a senior at West Windsor-Plainsboro High School North. Aside from CJSIA, Rohan’s passion for leadership spread across his community, with him being President of his school’s Model Congress team and Vice President of his school’s Model United Nations team. Rohan is eager to delve deeper into the worlds of artificial intelligence, politics, and economics and strives to enter the field of business. In his free time, Rohan enjoys taking trips to Princeton with his friends, biking along central jersey’s unmatched scenery, and simply reading intriguing books. Rohan can’t wait for yet another successful year of CJSIA!",
+            "path": "../static/images/board/kohli.png"
+        },
+        {
             "name": "Saanika Kulkarni",
             "position": "Co-President",
             "bio": "Saanika Kulkarni is currently a high school junior interested in studying machine learning and software development. She has held leadership positions on her FIRST Robotics team, completed independent research projects, as well as focused on outreach efforts in her community. Recently, she completed a research internship at Princeton University's Andlinger Center for Energy and the Environment and participated in the Google and Intel Science Fairs. To encourage greater diversity in technology, she is also working with ProjectCSGIRLS on the organization's Curriculum Development team. For her accomplishments and aspirations in computing, Saanika has been recognized by the National Center for Women and Information Technology. To combine her passion for entrepreneurship and engineering, she hopes to launch her own business startup. Her zeal and initiative to learn and lead speaks for itself, and in the future, she aspires to be like the women leaders in technology who she looks up to today.",
@@ -11,12 +17,6 @@
             "position": "Vice President",
             "bio": "Akash is a student at West Windsor-Plainsboro High School South. Aside from CJSIA, he is passionate about computer science, physics, and international policy. He awarded in his school's Model United Nations team (SouthMUN), in the South Debate Team, and is the Secretary of the South Camerata Orchestra. He also pursues his interests outside school by competing in the Silver Division of USACO, in various hackathons/information security CTF tournaments, and by playing hockey recreationally. Akash is excited to lead CJSIA throughout the coming seasons, working alongside students and the dedicated board to spread entrepreneurship skills and foster innovation.",
             "path": "../static/images/board/akashb.png"
-        },
-        {
-            "name": "Rohan Kohli",
-            "position": "Co-President",
-            "bio": "Rohan is a senior at West Windsor-Plainsboro High School North. Aside from CJSIA, Rohan’s passion for leadership spread across his community, with him being President of his school’s Model Congress team and Vice President of his school’s Model United Nations team. Rohan is eager to delve deeper into the worlds of artificial intelligence, politics, and economics and strives to enter the field of business. In his free time, Rohan enjoys taking trips to Princeton with his friends, biking along central jersey’s unmatched scenery, and simply reading intriguing books. Rohan can’t wait for yet another successful year of CJSIA!",
-            "path": "../static/images/board/kohli.png"
         },
         {
             "name": "Rishi Madala",
