@@ -1,6 +1,12 @@
 {
     "board": [
         {
+            "name": "Phalgun Garimella",
+            "position": "Co-President",
+            "bio": "Phalgun Garimella is currently a senior at West Windsor-Plainsboro High School North and serves as one of the Co-Presidents for the Central Jersey Student Innovators' Association. Aside from CJSIA, he is passionate about the fields of finance, statistics/data analytics, and philosophy. In school, he holds several leadership positions as the President of the Model UN team, the President of the school’s Business Club, and the Treasurer for the student council of the class of 2020. He enjoys participating in various finance and economics competitions, such as the Knowledge@Wharton High School Investment Competition and the National Economics Challenge, to further explore the subjects at a deeper level. In his free time, he enjoys collecting socks, watching TV, and finding laptop stickers from restaurants around the country. Phalgun is excited to lead CJSIA and to work alongside the leaders of tomorrow!",
+            "path": "../static/images/board/phalgun.jpg"
+        },
+        {
             "name": "Rohan Kohli",
             "position": "Co-President",
             "bio": "Rohan is a senior at West Windsor-Plainsboro High School North. Aside from CJSIA, Rohan’s passion for leadership spread across his community, with him being President of his school’s Model Congress team and Vice President of his school’s Model United Nations team. Rohan is eager to delve deeper into the worlds of artificial intelligence, politics, and economics and strives to enter the field of business. In his free time, Rohan enjoys taking trips to Princeton with his friends, biking along central jersey’s unmatched scenery, and simply reading intriguing books. Rohan can’t wait for yet another successful year of CJSIA!",
@@ -20,13 +26,13 @@
         },
         {
             "name": "Rishi Madala",
-            "position": "Vice President",
+            "position": "Director of Logistics",
             "bio": "Rishi is a student at West Windsor-Plainsboro High School South and prides himself in being a well-rounded individual. Within his school, he is the captain of the high school basketball team, a part of the HSS Model United Nations team and an officer of the HSS Business Club. Rishi is also involved in his local community as he is a mentor in the Tutoring Desk and Study Buddy programs. He is very excited to serve as the Vice-President for CJSIA for 2019 and years to come and empower students on the basis of innovation and entrepreneurship to facilitate the development of real-world skills.",
             "path": "../static/images/board/rishi.png"
         },
         {
             "name": "Samvit Agarwal",
-            "position": "Vice President",
+            "position": "Director of Logistics",
             "bio": "Samvit is a student at WWP South with a passion for public speaking, computer science and entrepreneurship. In school, he is a part of the Model United Nations team, an active member of the Debate club and a junior officer in the Absolute Coding Club. Outside of school, Samvit regularly attends hackathons, competes in competitive programming competitions and volunteers, helping younger kids academically. A true advocate for leadership and innovation, Samvit is excited to serve as the Vice President of CJSIA for the coming years.",
             "path": "../static/images/board/samvit.png"
         },
