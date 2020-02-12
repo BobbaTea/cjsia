@@ -1,0 +1,25 @@
+{
+  "name": "cjsia",
+  "version": "1.0.0",
+  "description": "Official CJSIA Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobbaTea/cjsia.git"
+  },
+  "author": "BobbaTea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobbaTea/cjsia/issues"
+  },
+  "homepage": "https://github.com/BobbaTea/cjsia#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "helmet": "^3.21.2"
+  }
+}

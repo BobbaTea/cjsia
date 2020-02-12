@@ -1,0 +1,155 @@
+
+    <div class="container">
+        <div class="card col-sm-12" style="background-color: rgb(255,255,255, 0.4); border-radius: 5px">
+            <div class="card-body px-4">
+                <div class="heading-title text-center mb-3">
+                    <h3 class="display-4 mb-2">Contact Us </h3>
+                    <div class="row justify-content-center">
+                        <p class="lead col-sm-8">Have questions or concerns? Fill out the form below or send us an email
+                            to connect and learn more! </p>
+                    </div>
+                </div>
+                <div id="error" class="alert alert-danger" style="display: none" role="alert">
+                    Please make sure to fill in all fields and enter a valid email!
+                </div>
+                <div id="success" class="alert alert-success" style="display: none" role="alert">
+                    Message sent!
+                </div>
+                <div class="row">
+
+                    <div class="col-md-9 mb-md-0 mb-5">
+
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control" required>
+                                        <label for="name" class="mx-3">Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <label for="email" class="mx-3">Email</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control" required>
+                                        <label for="subject" class="mx-3">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" required></textarea>
+                                        <label for="message" style="color:rgb(78, 78, 78)" class="mx-3">Message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="text-center text-md-left">
+                                <a class="submit btn border-info btn-block  text-info "
+                                    onclick="submitContact()">Send</a>
+                            </div>
+                        </form>
+
+
+                        <div class="status"></div>
+                    </div>
+
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fa fa-map-marker fa-2x"></i>
+                                <p>West Windsor, NJ 08550</p>
+                            </li>
+
+                            <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                                <p><a style="color:rgb(11, 75, 158); text-decoration: none;"
+                                        href="tel:917-353-2349">(917)-353-2349</a></p>
+                            </li>
+
+                            <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                                <p><a style="color:rgb(11, 75, 158); text-decoration: none;"
+                                        href="mailto:board@cjsia.com">board@cjsia.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+                <br>
+                <br>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <script>
+        function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+        function submitContact() {
+            email = document.getElementById('email').value
+            name = document.getElementById('name').value
+            message = document.getElementById('message').value
+            subject = document.getElementById('subject').value
+
+            error = document.getElementById('error')
+            success = document.getElementById('success')
+
+            if (email == "" || email == undefined || email == null || !validateEmail(email)) {
+                error.style.display = "block"
+                return
+            }
+            if (name == "" || name == undefined || name == null) {
+                error.style.display = "block"
+                return
+            }
+            if (message == "" || message == undefined || message == null) {
+                error.style.display = "block"
+                return
+            }
+            if (subject == "" || subject == undefined || subject == null) {
+                error.style.display = "block"
+                return
+            }
+
+            fetch('https://docs.google.com/forms/d/e/1FAIpQLSdUfxS2jBIOnSspYFbLXjIsG2p5DAXdMBfUHMW0CtkpkgddMw/formResponse?usp=pp_url&entry.2086090993=' + name + '&entry.511207450=' + email + '&entry.1455550529=' + subject + '&entry.1855711074=' + message + '&submit=Submit', { mode: 'no-cors' })
+                .then((response) => {
+                    return response.json();
+                })
+                .then((myJson) => {
+                    console.log(myJson);
+
+                });
+            error.style.display = "none"
+            success.style.display = "block"
+            document.getElementById('email').value = ""
+            document.getElementById('name').value = ""
+            document.getElementById('message').value = ""
+            document.getElementById('subject').value = ""
+        }
+
+
+    </script>

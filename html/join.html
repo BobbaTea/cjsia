@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CJSIA | Join</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="static/css/join.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="static/img/cjsiafavicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <nav style="border: 0; box-shadow: none;"
+            class=" navbar navbar-expand-lg navbar-light bg-transparent navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="static/img/cjsiafavicon.png" width="70" height="70" class="d-inline-block align-top"
+                        alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav nav-tabs navbar-center" style="border: 0; box-shadow: none;">
+                        <li class="nav-item active">
+                            <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link" href="/">home
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="border: 0; box-shadow: none;" draggable="false disabled" class="nav-link"
+                                href="/index.html#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="border: 0; box-shadow: none;" draggable="false disabled" class="nav-link"
+                                href="/team.html">team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link"
+                                href="/events.html">events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link"
+                                href="/join.html">join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link"
+                                href="/contact.html">contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="mr-2 mt-2"><a href="https://facebook.com"><i
+                                    class="fa fa-facebook-square fab"></i></a>
+                        </li>
+                        <li class="mr-2 mt-2"><a href="https://twitter.com"><i class="fa fa-twitter-square fab"></i></a>
+
+                        </li>
+                        <li class="mr-2 mt-2"><a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="card col-sm-12" style="background-color: rgb(255,255,255, 0.4); border-radius: 5px">
+            <div class="card-body px-4">
+                <div class="heading-title text-center mb-3">
+                    <h3 class="display-4 mb-2">Join Us </h3>
+                    <div class="row justify-content-center">
+                        <p class="lead col-sm-8">Become a part of CJSIA and be notified of upcoming events!</p>
+                    </div>
+                </div>
+                <div id="error" class="alert alert-danger" style="display: none" role="alert">
+                    Please make sure to fill in all fields and enter a valid email!
+                </div>
+                <div id="success" class="alert alert-success" style="display: none" role="alert">
+                    Successfully added to mailing list!
+                </div>
+                <div class="row">
+
+                    <div class="col-md-12 mb-md-0 mb-5">
+
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="fname" name="fname" class="form-control" required>
+                                        <label for="fname" class="mx-3">First Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="lname" name="lname" class="form-control" required>
+                                        <label for="lname" class="mx-3">Last Name</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <label for="email" class="mx-3">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="school" name="school" class="form-control" required>
+                                        <label for="school" class="mx-3">School</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="md-form mb-0">
+                                        <select class="form-control" id="grade">
+                                            <option value='default' selected>Select Grade</option>
+                                            <option value="12">12</option>
+                                            <option value="11">11</option>
+                                            <option value="10">10</option>
+                                            <option value="9">9</option>
+                                            <option value="8">8</option>
+                                            <option value="7">7</option>
+                                            <option value="6">6</option>
+                                            <option value="5">5</option>
+                                            <option value="4">4</option>
+                                            <option value="3">3</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <label for="grade" class="mx-3">Grade</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="experience" name="experience" rows="2"
+                                            class="form-control md-textarea" required></textarea>
+                                        <label for="experience" style="color:rgb(78, 78, 78)" class="mx-3">List prior
+                                            experiences with public speaking, leadership, and entrepreneurship</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="learn" name="learn" rows="2"
+                                            class="form-control md-textarea" required></textarea>
+                                        <label for="learn" style="color:rgb(78, 78, 78)" class="mx-3">What do you hope
+                                            to get out of CJSIA?</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <br>
+                        <div class="text-center text-md-left">
+                            <a class="submit btn border-info btn-block  text-info " onclick="submitContact()">Submit</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+
+
+
+
+                </div>
+                <br>
+                <br>
+
+            </div>
+
+
+
+        </div>
+        <br>
+        <div class="card col-sm-12" style="background-color: rgb(255,255,255, 0.4); border-radius: 5px">
+            <div class="card-body px-4">
+                <div class="heading-title text-center mb-3">
+                    <h3 class="display-4 mb-2">Board/Chapter Applications </h3>
+                    <div class="row justify-content-center">
+                        <p class="lead col-sm-8 mb-1">If you are interested in becoming a part of the CJSIA board or are
+                            looking to start your own chapter, send us an email at <a href="mailto:board@cjsia.com"
+                                style="color:rgb(11, 75, 158); text-decoration: none;">board@cjsia.com</a>.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>
+        function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+        function submitContact() {
+            fname = document.getElementById('fname').value
+            lname = document.getElementById('lname').value
+            email = document.getElementById('email').value
+            school = document.getElementById('school').value
+            grade = document.getElementById('grade').value
+            experience = document.getElementById('experience').value
+            learn = document.getElementById('learn').value
+
+            error = document.getElementById('error')
+            success = document.getElementById('success')
+
+            if (email == "" || email == undefined || email == null || !validateEmail(email)) {
+                console.log('email')
+                error.style.display = "block"
+                return
+            }
+            if (fname == "" || fname == undefined || fname == null) {
+                console.log('fname')
+                error.style.display = "block"
+                return
+            }
+            if (lname == "" || lname == undefined || lname == null) {
+                console.log('lname')
+                error.style.display = "block"
+                return
+            }
+            if (school == "" || school == undefined || school == null) {
+                console.log('school')
+                error.style.display = "block"
+                return
+            }
+            if (experience == "" || experience == undefined || experience == null) {
+                console.log('experience')
+                error.style.display = "block"
+                return
+            }
+            if (learn == "" || learn == undefined || learn == null) {
+                console.log('learn')
+                error.style.display = "block"
+                return
+            }
+            if (grade == "" || grade == undefined || grade == null || grade == "default") {
+                console.log('grade')
+                error.style.display = "block"
+                return
+            }
+
+            fetch('https://docs.google.com/forms/d/e/1FAIpQLSch5Pv6HrkCJ9_ElJHbnQjhu1gtDf0yzVco360g1709ufhReQ/formResponse?usp=pp_url&entry.27431161=' + email + '&entry.379500754=' + fname + '&entry.1082644833=' + lname + '&entry.1390708084=' + school + '&entry.1029802789=' + grade + '&entry.605663436=' + experience + '&entry.404639165=' + learn + '&submit=Submit', { mode: 'no-cors' })
+                .then((response) => {
+                    return response.json();
+                })
+                .then((myJson) => {
+                    console.log(myJson);
+
+                });
+            error.style.display = "none"
+            success.style.display = "block"
+            document.getElementById('fname').value = ""
+            document.getElementById('lname').value = ""
+            document.getElementById('email').value = ""
+            document.getElementById('school').value = ""
+            document.getElementById('grade').value = ""
+            document.getElementById('experience').value = ""
+            document.getElementById('learn').value = ""
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+body {
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    line-height: 1.5;
+    color: #323232;
+    font-size: 15px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+.heading-title {
+    margin-bottom: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-title h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.p-top-30 {
+    padding-top: 30px;
+}
+
+.half-txt {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+
+.team-member {
+    overflow: hidden;
+}
+
+.team-member, .team-member .team-img {
+    position: relative;
+}
+
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    /* border: 20px solid rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.team-member:hover .team-hover .desk {
+    top: 35%;
+}
+
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+
+.team-hover .desk {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(-33%);
+    -ms-transform: translateY(-33%);
+    transform: translateY(-33%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+
+.team-img img {
+
+    height: 60vh;
+    width: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.team-member:hover .team-hover .s-link {
+    bottom: 10%;
+}
+
+.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
+    opacity: 1;
+}
+
+.team-hover .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+
+.desk, .desk h4, .team-hover .s-link a {
+    text-align: center;
+    color: #222;
+}
+
+.team-member .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.team-title {
+    position: static;
+    /* padding: 20px 0; */
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    /* text-transform: uppercase; */
+}
+
+.team-title span {
+    font-size: 12px;
+    /* text-transform: uppercase; */
+    color: #4d4d4d;
+    letter-spacing: 1px;
+}
+
+html, body {
+    background: linear-gradient(to right, rgba(0, 204, 255, 0.2), rgba(255, 230, 0, 0.2));
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    /* overflow: hidden; */
+    -webkit-user-select: none;
+    /* Safari, Chrome */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+    /* CSS3 */
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vr.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vb.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "vegur";
+    src: url(../fonts/vl.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+}

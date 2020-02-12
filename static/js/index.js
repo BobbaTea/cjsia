@@ -8,66 +8,24 @@ canvas.width = innerWidth
 canvas.height = innerHeight
 const maxRadius = 7
 const minRadius = 2
-const numCircles = Math.floor((300 / 842400) * canvas.width * canvas.height)
+const numCircles = Math.floor((70 / 842400) * canvas.width * canvas.height)
 const maxVel = 2
 const minVel = -2
-const dopacity = 0.0001
 var circles = Array(numCircles)
-var mx = undefined
-var my = undefined
-var click = 1;
-var curDist = 100;
-var disperse = false
-var perlinVal = 50;
-document.addEventListener('mousemove', mouse);
 
-function mouse(e) {
-    mx = e.clientX
-    my = e.clientY
-}
-
-document.addEventListener('mousedown', clickd);
-document.addEventListener('mouseup', clicku);
-document.addEventListener('keydown', disperser);
-document.addEventListener('keyup', dispersen);
-
-function disperser() {
-    disperse = true
-}
-
-function dispersen() {
-    disperse = false
-}
-
-function clickd() {
-    click = 0
-}
-
-function clicku() {
-    click = 1
-}
-
-document.addEventListener('resize', rsz)
-
+// document.addEventListener('resize', rsz)
 function rsz() {
-    canvas.width = innerWidth
-    canvas.height = innerHeight
+    // stahp = true
+    // cancelAnimationFrame(animframe)
+    // circles = Array(numCircles)
+    // // init()
+    // canvas.width = innerWidth
+    // canvas.height = innerHeight
+    console.log("a")
 }
-
-function map(val, in_min, in_max, out_min, out_max) {
-    return (val - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-}
-
 
 function randomIntFromRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
-}
-
-function getRandomColor() {
-    var r = randomIntFromRange(0, 255),
-        g = randomIntFromRange(0, 255),
-        b = randomIntFromRange(0, 255)
-    return 'rgb(' + r + ',' + g + ',' + b + ')';
 }
 
 function distance(x1, y1, x2, y2) {
@@ -93,36 +51,15 @@ class Circle {
 
         this.c = c
         this.radius = randomIntFromRange(minRadius, maxRadius)
-        this.yvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4) + 0.08;
-        this.xvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 4) + 0.08;
-        this.o = (Math.pow(this.radius / maxRadius, 2) * 0.9) + 0.08
+        this.yvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 5) + 0.08;
+        this.xvel = (Math.random() * (minVel + maxVel) - minVel) * Math.pow(this.radius / maxRadius, 5) + 0.08;
+        this.o = (Math.pow(this.radius / maxRadius, 2) * 0.5) + 0.06
         this.draw()
     }
 
     update() {
-
-
-        if (!this.c) {
-            if (disperse) {
-                this.c = true;
-            }
-        } else {
-            this.x += this.xvel; // + noise.perlin2(this.x/100 , this.y/200 );
-            this.y += this.yvel; //+ noise.perlin2(this.x /200, this.y/100 );
-        }
-
-        if (Math.abs(distance(this.x, this.y, mx, my)) <= curDist && this.o > 0.6) {
-            this.xvel -= ((mx - this.x) / curDist) * maxVel
-            this.yvel -= ((my - this.y) / curDist) * maxVel
-        } else {
-            if (Math.abs(this.xvel) >= maxVel) {
-                this.xvel *= 0.8
-            }
-            if (Math.abs(this.yvel) >= maxVel) {
-                this.yvel *= 0.8
-            }
-
-        }
+        this.x += this.xvel; // + noise.perlin2(this.x/100 , this.y/200 );
+        this.y += this.yvel; //+ noise.perlin2(this.x /200, this.y/100 );
         if (this.x <= 0) {
             this.x += canvas.width
         } else if (this.x >= canvas.width) {
@@ -142,11 +79,9 @@ class Circle {
     draw() {
         c.beginPath()
         c.lineWidth = 0.7;
-        var a = canvas.width - this.x;
-        var b = this.x;
         c.fillStyle = 'rgb(' + Math.floor((this.x / canvas.width) * 255) + ',0,' + Math.floor(((canvas.width - this.x) / canvas.width) * 255) + ')'
         c.ellipse(this.x, this.y, this.radius, this.radius, Math.PI / 4, 0, 2 * Math.PI)
-        c.globalAlpha = this.o;
+        c.globalAlpha = this.o * ((Math.random() * 0.3) + 0.7);
         c.fill()
     }
 }
@@ -156,27 +91,16 @@ function init() {
     for (var i = 0; i < numCircles; i++) {
         circles[i] = new Circle(undefined, undefined, true)
     }
-}
-
+ }
+var animframe = 0
 function animate() {
     requestAnimationFrame(animate)
-
     c.clearRect(0, 0, canvas.width, canvas.height)
-    c.fillText('CJSIA', 0, 0)
-    if (click == 0) {
-        circles.push(new Circle(mx, my, false))
-    }
     for (var i = 0; i < circles.length; i++) {
-        //    if(i==0){
-        //        console.log(circles[i].x)
-        //    }
         circles[i].update()
     }
-    // window.open(canvas.toDataURL(), '_blank')
-    // document.querySelector("body").style.background = "url(" + canvas.toDataURL() + ")"
-
 }
-document.body.style.background = "linear-gradient(to bottom right, rgba(0, 204, 255, 0.404), rgba(255, 230, 0, 0.336))";
+// document.body.style.background = "linear-gradient(to bottom right, rgba(0, 204, 255, 0.404), rgba(255, 230, 0, 0.336))";
 
 init()
 animate()
