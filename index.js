@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var helmet = require('helmet')
 var app = express()
 
-
 app.engine('handlebars', hbs({
     defaultLayout: 'default',
     layoutsDir: __dirname + '/views/layouts',
@@ -18,8 +17,11 @@ app.use(express.urlencoded({
     extended: true
 }))
 app.use(express.static('static'))
-
-
+app.use(function (req, res, next) {
+    headers = req.rawHeaders
+    headers
+    next()
+})
 
 app.all('/', function (req, res) {
     navbar = {
