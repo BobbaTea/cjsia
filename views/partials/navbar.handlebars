@@ -1,3 +1,4 @@
+
 <div class="container">
     <nav style="border: 0; box-shadow: none;"
         class=" navbar navbar-expand-lg navbar-light bg-transparent navbar-fixed-top">
@@ -22,11 +23,11 @@
                         href="/index#about">about</a>
                 </li>
                 <li class="nav-item {{#if navbar.team}} active {{/if}}">
-                    <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link" href="/team">team</a>
+                    <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link" href="/index#team">team</a>
                 </li>
                 <li class="nav-item {{#if navbar.events}} active {{/if}} ">
-                    <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link disabled"
-                        href="/events">events</a>
+                    <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link" 
+                        href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">events</a>
                 </li>
                 <li class="nav-item {{#if navbar.join}} active {{/if}}">
                     <a style="border: 0; box-shadow: none;" draggable="false" class="nav-link" href="/join">join</a>
@@ -46,3 +47,9 @@
         </div>
     </nav>
 </div>
+<script>
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>

@@ -34,13 +34,14 @@ app.all('/', function (req, res) {
     data = {
         title: 'CJSIA',
         navbar: navbar,
-        css: "/css/index.css",
+        css: "/css/combined.css",
         live: true,
     }
     return res.render('index', data)
 });
 
 app.all('/team', function (req, res) {
+    return res.redirect('/')
     navbar = {
         "index": false,
         "team": true,
