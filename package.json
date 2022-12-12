@@ -18,7 +18,7 @@
   "homepage": "https://github.com/BobbaTea/cjsia#readme",
   "dependencies": {
     "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^3.1.0",
     "helmet": "^3.21.2"
   }
